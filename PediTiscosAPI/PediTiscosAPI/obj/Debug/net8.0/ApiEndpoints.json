@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "PediTiscosAPI.Controllers.ProdutosController",
+    "Method": "GetProdutos",
+    "RelativePath": "api/Produtos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PediTiscosAPI.Controllers.ProdutosController",
+    "Method": "AddProduto",
+    "RelativePath": "api/Produtos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produto",
+        "Type": "PediTiscosAPI.Entities.Produto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

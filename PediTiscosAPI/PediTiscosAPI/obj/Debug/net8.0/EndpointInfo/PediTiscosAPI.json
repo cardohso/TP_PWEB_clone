@@ -1,0 +1,108 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "PediTiscosAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Produtos": {
+      "get": {
+        "tags": [
+          "Produtos"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Produtos"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Produto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Produto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Produto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Categoria": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nome": {
+            "type": "string",
+            "nullable": true
+          },
+          "produtos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Produto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Produto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nome": {
+            "type": "string",
+            "nullable": true
+          },
+          "preco": {
+            "type": "number",
+            "format": "double"
+          },
+          "descricao": {
+            "type": "string",
+            "nullable": true
+          },
+          "estoque": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "categoriaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "categoria": {
+            "$ref": "#/components/schemas/Categoria"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

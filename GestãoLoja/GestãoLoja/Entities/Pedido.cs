@@ -1,0 +1,10 @@
+﻿namespace GestãoLoja.Entities
+{
+    public class Pedido
+    {
+        public int Id { get; set; }
+        public DateTime Data { get; set; }
+        public string ClienteId { get; set; }
+        public ICollection<Produto> Produtos { get; set; }
+    }
+}

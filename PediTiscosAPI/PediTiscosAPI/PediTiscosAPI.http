@@ -1,0 +1,6 @@
+@PediTiscosAPI_HostAddress = http://localhost:5172
+
+GET {{PediTiscosAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

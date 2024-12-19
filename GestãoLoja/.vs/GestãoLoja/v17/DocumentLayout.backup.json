@@ -1,0 +1,161 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Gest\u00E3oLoja\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\user\\source\\repos\\gest\u00E3oloja\\gest\u00E3oloja\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\user\\source\\repos\\gest\u00E3oloja\\gest\u00E3oloja\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\user\\source\\repos\\gest\u00E3oloja\\gest\u00E3oloja\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\user\\source\\repos\\gest\u00E3oloja\\gest\u00E3oloja\\data\\inicializa\u00E7\u00E3o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\data\\inicializa\u00E7\u00E3o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\user\\source\\repos\\gest\u00E3oloja\\gest\u00E3oloja\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\user\\source\\repos\\gest\u00E3oloja\\gest\u00E3oloja\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\user\\source\\repos\\gest\u00E3oloja\\gest\u00E3oloja\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\user\\source\\repos\\gest\u00E3oloja\\gest\u00E3oloja\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 249,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Gest\u00E3oLoja\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T14:47:27.103Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Inicializa\u00E7\u00E3o.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Data\\Inicializa\u00E7\u00E3o.cs",
+              "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Data\\Inicializa\u00E7\u00E3o.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Data\\Inicializa\u00E7\u00E3o.cs",
+              "RelativeToolTip": "Gest\u00E3oLoja\\Data\\Inicializa\u00E7\u00E3o.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T17:44:00.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Entities\\Pedido.cs",
+              "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Entities\\Pedido.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Entities\\Pedido.cs",
+              "RelativeToolTip": "Gest\u00E3oLoja\\Entities\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T17:35:49.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Entities\\Categoria.cs",
+              "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Entities\\Categoria.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Entities\\Categoria.cs",
+              "RelativeToolTip": "Gest\u00E3oLoja\\Entities\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T15:13:22.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Entities\\Produto.cs",
+              "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Entities\\Produto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Entities\\Produto.cs",
+              "RelativeToolTip": "Gest\u00E3oLoja\\Entities\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T15:13:16.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Data\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "Gest\u00E3oLoja\\Data\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T14:47:39.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\appsettings.json",
+              "RelativeDocumentMoniker": "Gest\u00E3oLoja\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\appsettings.json",
+              "RelativeToolTip": "Gest\u00E3oLoja\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-19T14:45:44.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Program.cs",
+              "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Program.cs",
+              "RelativeToolTip": "Gest\u00E3oLoja\\Program.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAgwGoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T14:40:43.931Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
