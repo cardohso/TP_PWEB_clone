@@ -1,0 +1,250 @@
+﻿@page "/produtos"
+@using GestãoLoja.Entities
+@using Microsoft.EntityFrameworkCore
+@inject Data.ApplicationDbContext DbContext
+@rendermode InteractiveServer
+
+<h3>Gestão de Produtos</h3>
+
+<!-- Tabela de Produtos -->
+<table class="tabela">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Preço</th>
+            <th>Estoque</th>
+            <th>Categoria</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var produto in ListaProdutos)
+        {
+            <tr>
+                <td>@produto.Id</td>
+                <td>@produto.Nome</td>
+                <td>@produto.Preco.ToString("C")</td>
+                <td>@produto.Estoque</td>
+                <td>@produto.Categoria.Nome</td>
+                <td>
+                    <button class="btn editar" @onclick="() => EditarProduto(produto)">Editar</button>
+                    <button class="btn excluir" @onclick="() => ExcluirProduto(produto.Id)">Excluir</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Botão para adicionar novo produto -->
+<button class="btn nova-categoria" @onclick="NovaProduto">Novo Produto</button>
+
+<!-- Formulário de Edição de Produto -->
+@if (EditandoProduto)
+{
+    <div class="formulario-edicao">
+        <h4>@(ProdutoAtual.Id == 0 ? "Novo Produto" : "Editar Produto")</h4>
+        <div class="campo">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" @bind="ProdutoAtual.Nome" />
+        </div>
+        <div class="campo">
+            <label for="preco">Preço:</label>
+            <input type="number" id="preco" @bind="ProdutoAtual.Preco" step="0.01" />
+        </div>
+        <div class="campo">
+            <label for="descricao">Descrição:</label>
+            <textarea id="descricao" @bind="ProdutoAtual.Descricao"></textarea>
+        </div>
+        <div class="campo">
+            <label for="estoque">Estoque:</label>
+            <input type="number" id="estoque" @bind="ProdutoAtual.Estoque" />
+        </div>
+        <div class="campo">
+            <label for="categoria">Categoria:</label>
+            <select id="categoria" @bind="ProdutoAtual.CategoriaId">
+                <option value="">Selecione a Categoria</option>
+                @foreach (var categoria in ListaCategorias)
+                {
+                    <option value="@categoria.Id">@categoria.Nome</option>
+                }
+            </select>
+        </div>
+        <div class="botoes">
+            <button class="btn salvar" @onclick="SalvarProduto">Salvar</button>
+            <button class="btn cancelar" @onclick="CancelarEdicaoProduto">Cancelar</button>
+        </div>
+    </div>
+}
+
+@code {
+    private List<Produto> ListaProdutos = new();
+    private List<Categoria> ListaCategorias = new();
+    private Produto ProdutoAtual = new Produto();
+    private Produto ProdutoOriginal = new Produto(); // Para armazenar o estado original
+    private bool EditandoProduto = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Carrega os produtos e categorias do banco
+        ListaProdutos = await DbContext.Produtos.Include(p => p.Categoria).ToListAsync();
+        ListaCategorias = await DbContext.Categorias.ToListAsync();
+    }
+
+    private void NovaProduto()
+    {
+        ProdutoAtual = new Produto(); // Cria um novo produto em branco
+        EditandoProduto = true;
+    }
+
+    private void EditarProduto(Produto produto)
+    {
+        ProdutoAtual = produto; // Carrega os dados do produto para edição
+        ProdutoOriginal = new Produto
+            {
+                Id = produto.Id,
+                Nome = produto.Nome,
+                Preco = produto.Preco,
+                Descricao = produto.Descricao,
+                Estoque = produto.Estoque,
+                CategoriaId = produto.CategoriaId
+            }; // Armazena o estado original
+        EditandoProduto = true;
+    }
+
+    private async Task ExcluirProduto(int id)
+    {
+        var produto = await DbContext.Produtos.FindAsync(id);
+        if (produto != null)
+        {
+            DbContext.Produtos.Remove(produto);
+            await DbContext.SaveChangesAsync();
+            ListaProdutos = await DbContext.Produtos.Include(p => p.Categoria).ToListAsync();
+        }
+    }
+
+    private async Task SalvarProduto()
+    {
+        if (ProdutoAtual.Id == 0)
+        {
+            // Adiciona novo produto
+            DbContext.Produtos.Add(ProdutoAtual);
+        }
+        else
+        {
+            // Atualiza produto existente
+            DbContext.Produtos.Update(ProdutoAtual);
+        }
+
+        await DbContext.SaveChangesAsync();
+        ListaProdutos = await DbContext.Produtos.Include(p => p.Categoria).ToListAsync();
+        EditandoProduto = false;
+    }
+
+    private void CancelarEdicaoProduto()
+    {
+        // Restaura o estado original do produto sem salvar alterações
+        ProdutoAtual = new Produto
+            {
+                Id = ProdutoOriginal.Id,
+                Nome = ProdutoOriginal.Nome,
+                Preco = ProdutoOriginal.Preco,
+                Descricao = ProdutoOriginal.Descricao,
+                Estoque = ProdutoOriginal.Estoque,
+                CategoriaId = ProdutoOriginal.CategoriaId
+            };
+
+        EditandoProduto = false; // Fecha o formulário de edição
+    }
+}
+
+
+<style>
+    .tabela {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+        .tabela th, .tabela td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .tabela th {
+            background-color: #007BFF;
+            color: white;
+        }
+
+    .btn {
+        padding: 6px 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+        .btn.editar {
+            background-color: #28a745;
+            color: white;
+        }
+
+        .btn.excluir {
+            background-color: #dc3545;
+            color: white;
+        }
+
+        .btn.nova-categoria {
+            background-color: #007bff;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .btn.salvar {
+            background-color: #28a745;
+            color: white;
+        }
+
+        .btn.cancelar {
+            background-color: #6c757d;
+            color: white;
+        }
+
+    .formulario-edicao {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+        .formulario-edicao h4 {
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+
+    .campo {
+        margin-bottom: 15px;
+    }
+
+        .campo label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .campo input, .campo select, .campo textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .campo textarea {
+            min-height: 100px;
+        }
+
+    .botoes {
+        margin-top: 15px;
+    }
+</style>
