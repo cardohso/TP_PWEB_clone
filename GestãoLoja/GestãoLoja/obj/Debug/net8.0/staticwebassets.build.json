@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "O9Zsif+Z9i8TZ9JnlNMEua1U1ZBIsqEjwTzK4Hr7hKk=",
+  "Hash": "HoxZLUyHgx3ne20ThH0ngUgceX7d1yhlzl9dxHZCoJ8=",
   "Source": "GestãoLoja",
   "BasePath": "_content/GestãoLoja",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "GestãoLoja\\wwwroot",
       "Source": "GestãoLoja",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\wwwroot\\",
       "BasePath": "_content/GestãoLoja",
       "Pattern": "**"
     }
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.10\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GestãoLoja.styles.css",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GestãoLoja.styles.css",
       "SourceId": "GestãoLoja",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/GestãoLoja",
       "RelativePath": "GestãoLoja#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -77,13 +77,13 @@
       "Integrity": "wxGVkasg6rkWJs31yXnlawL0qURgd/YT6BsfvSIkQPs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GestãoLoja.styles.css"
+      "OriginalItemSpec": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GestãoLoja.styles.css"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GestãoLoja.bundle.scp.css",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GestãoLoja.bundle.scp.css",
       "SourceId": "GestãoLoja",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/GestãoLoja",
       "RelativePath": "GestãoLoja#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -98,13 +98,13 @@
       "Integrity": "8Qn+kVl16gYStB62ieLG+ivUy/a4m2zdF4Bt8ZZyPc0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GestãoLoja.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GestãoLoja.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\wwwroot\\app.css",
       "SourceId": "GestãoLoja",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\wwwroot\\",
       "BasePath": "_content/GestãoLoja",
       "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "GestãoLoja",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\wwwroot\\",
       "BasePath": "_content/GestãoLoja",
       "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "GestãoLoja",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\wwwroot\\",
       "BasePath": "_content/GestãoLoja",
       "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\wwwroot\\favicon.png",
       "SourceId": "GestãoLoja",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\wwwroot\\",
       "BasePath": "_content/GestãoLoja",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -262,7 +262,7 @@
     },
     {
       "Route": "app.css",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\wwwroot\\app.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -299,7 +299,7 @@
     },
     {
       "Route": "app.da95v2qkru.css",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\wwwroot\\app.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -344,7 +344,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -389,7 +389,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -426,7 +426,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -471,7 +471,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -508,7 +508,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -553,7 +553,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -590,7 +590,7 @@
     },
     {
       "Route": "GestãoLoja.bundle.scp.css",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GestãoLoja.bundle.scp.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GestãoLoja.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -627,7 +627,7 @@
     },
     {
       "Route": "GestãoLoja.styles.css",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GestãoLoja.styles.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GestãoLoja.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -668,7 +668,7 @@
     },
     {
       "Route": "GestãoLoja.vd13w2geho.styles.css",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GestãoLoja.styles.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GestãoLoja.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -717,7 +717,7 @@
     },
     {
       "Route": "GestãoLoja.x8v7wg18db.bundle.scp.css",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\GestãoLoja\\GestãoLoja\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GestãoLoja.bundle.scp.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GestãoLoja.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
