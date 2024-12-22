@@ -12,8 +12,8 @@ using PediTiscosAPI.Data;
 namespace PediTiscosAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241219013630_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20241222151240_Primeira")]
+    partial class Primeira
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -107,11 +107,13 @@ namespace PediTiscosAPI.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("PediTiscosAPI.Entities.Pedido", null)
+                    b.HasOne("PediTiscosAPI.Entities.Pedido", "Pedido")
                         .WithMany("Produtos")
                         .HasForeignKey("PedidoId");
 
                     b.Navigation("Categoria");
+
+                    b.Navigation("Pedido");
                 });
 
             modelBuilder.Entity("PediTiscosAPI.Entities.Categoria", b =>

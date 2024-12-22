@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JoVjwwJL7aVYCUUzKqhEt9F0fiVTYPOt2bA7XTHrutQ=",
+  "Hash": "kIfosCvBKvNogR4J6UmLPHuQrmB4ui0PZCUYpZU68cc=",
   "Source": "PediTiscosAPI",
   "BasePath": "_content/PediTiscosAPI",
   "Mode": "Default",
@@ -1311,10 +1311,10 @@
       "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.10\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\PediTiscosAPI\\PediTiscosAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PediTiscosAPI.styles.css",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PediTiscosAPI.styles.css",
       "SourceId": "PediTiscosAPI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\PediTiscosAPI\\PediTiscosAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PediTiscosAPI",
       "RelativePath": "PediTiscosAPI#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -1329,7 +1329,7 @@
       "Integrity": "yJzMRujk3CbSbBe5hogvoEpcGbz0ThnTl058XcI1svI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\source\\repos\\PediTiscosAPI\\PediTiscosAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PediTiscosAPI.styles.css"
+      "OriginalItemSpec": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PediTiscosAPI.styles.css"
     }
   ],
   "Endpoints": [
@@ -3629,7 +3629,7 @@
     },
     {
       "Route": "PediTiscosAPI.02jfxhbwsz.styles.css",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\PediTiscosAPI\\PediTiscosAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PediTiscosAPI.styles.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PediTiscosAPI.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3654,7 +3654,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 01:33:29 GMT"
+          "Value": "Sun, 22 Dec 2024 14:30:26 GMT"
         },
         {
           "Name": "Link",
@@ -3678,7 +3678,7 @@
     },
     {
       "Route": "PediTiscosAPI.styles.css",
-      "AssetFile": "C:\\Users\\User\\source\\repos\\PediTiscosAPI\\PediTiscosAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PediTiscosAPI.styles.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PediTiscosAPI.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3703,7 +3703,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 01:33:29 GMT"
+          "Value": "Sun, 22 Dec 2024 14:30:26 GMT"
         },
         {
           "Name": "Link",

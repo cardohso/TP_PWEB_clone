@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PediTiscosAPI.Data;
 
@@ -11,9 +12,11 @@ using PediTiscosAPI.Data;
 namespace PediTiscosAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241222152904_agora")]
+    partial class agora
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -56,49 +59,6 @@ namespace PediTiscosAPI.Migrations
                         });
                 });
 
-            modelBuilder.Entity("PediTiscosAPI.Entities.Pagamento", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("Data")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("MetodoPagamento")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("PedidoId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("Valor")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("PedidoId");
-
-                    b.ToTable("Pagamentos");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Data = new DateTime(2024, 12, 22, 20, 6, 41, 161, DateTimeKind.Local).AddTicks(1487),
-                            MetodoPagamento = "Cartão",
-                            PedidoId = 1,
-                            Status = "Pendente",
-                            Valor = 25.00m
-                        });
-                });
-
             modelBuilder.Entity("PediTiscosAPI.Entities.Pedido", b =>
                 {
                     b.Property<int>("Id")
@@ -123,7 +83,7 @@ namespace PediTiscosAPI.Migrations
                         {
                             Id = 1,
                             ClienteId = "cliente_1",
-                            Data = new DateTime(2024, 12, 22, 20, 6, 41, 160, DateTimeKind.Local).AddTicks(9021)
+                            Data = new DateTime(2024, 12, 22, 15, 29, 4, 281, DateTimeKind.Local).AddTicks(5709)
                         });
                 });
 
@@ -197,17 +157,6 @@ namespace PediTiscosAPI.Migrations
                             Nome = "Pastel de Nata",
                             Preco = 2.50m
                         });
-                });
-
-            modelBuilder.Entity("PediTiscosAPI.Entities.Pagamento", b =>
-                {
-                    b.HasOne("PediTiscosAPI.Entities.Pedido", "Pedido")
-                        .WithMany()
-                        .HasForeignKey("PedidoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Pedido");
                 });
 
             modelBuilder.Entity("PediTiscosAPI.Entities.Produto", b =>

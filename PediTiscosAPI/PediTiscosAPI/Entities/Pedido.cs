@@ -5,6 +5,6 @@
         public int Id { get; set; }
         public DateTime Data { get; set; }
         public string ClienteId { get; set; }
-        public ICollection<Produto> Produtos { get; set; }
+        public ICollection<Produto> Produtos { get; set; } = new List<Produto>();
     }
 }
