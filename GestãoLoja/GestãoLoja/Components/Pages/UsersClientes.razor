@@ -1,0 +1,224 @@
+﻿@page "/usersClientes"
+@using Microsoft.AspNetCore.Identity
+@using GestãoLoja.Data
+@using GestãoLoja.Entities
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.EntityFrameworkCore
+@inject UserManager<ApplicationUser> UserManager
+@inject NavigationManager Navigation
+@rendermode InteractiveServer
+@attribute [Authorize(Roles = "Admin,Gestor")]
+
+<h3 class="titulo">Gestão de Usuários</h3>
+
+<div class="container">
+    <table class="tabela" id="userTable">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">Id</th>
+                <th onclick="sortTable(1)">Email</th>
+                <th onclick="sortTable(2)">Nome de Usuário</th>
+                <th onclick="sortTable(3)">Lockout Enabled</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in FilteredUserList)
+            {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>@user.Email</td>
+                    <td>@user.UserName</td>
+                    <td>@user.LockoutEnabled</td>
+                    <td>
+                        <button @onclick="() => DeleteUser(user.Id)">Delete</button>
+                        <button @onclick="() => ToggleUserLockout(user.Id, user.LockoutEnabled)">
+                            @(user.LockoutEnabled ? "Deactivate" : "Activate")
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@code {
+    private List<UserWithRoles> UserList = new();
+    private List<UserWithRoles> FilteredUserList = new();
+    private List<string> RoleList = new(); // List to hold unique roles
+
+    protected override async Task OnInitializedAsync()
+    {
+        var users = await UserManager.Users.ToListAsync();
+        foreach (var user in users)
+        {
+            var roles = await UserManager.GetRolesAsync(user);
+            if (roles.Contains("Cliente"))
+            {
+                var userWithRoles = new UserWithRoles
+                    {
+                        Id = user.Id,
+                        Email = user.Email,
+                        UserName = user.UserName,
+                        Roles = roles.ToList(),
+                        LockoutEnabled = user.LockoutEnabled
+                    };
+                UserList.Add(userWithRoles);
+                FilteredUserList.Add(userWithRoles);
+
+                // Add roles to the RoleList (no duplicates)
+                foreach (var role in roles)
+                {
+                    if (!RoleList.Contains(role))
+                    {
+                        RoleList.Add(role);
+                    }
+                }
+            }
+        }
+    }
+
+    private void FilterUsersByRole(ChangeEventArgs e)
+    {
+        var selectedRole = e.Value.ToString();
+        if (string.IsNullOrEmpty(selectedRole))
+        {
+            FilteredUserList = new List<UserWithRoles>(UserList);
+        }
+        else
+        {
+            FilteredUserList = UserList.Where(u => u.Roles.Contains(selectedRole)).ToList();
+        }
+    }
+
+    // Method to delete a user
+    private async Task DeleteUser(string userId)
+    {
+        var user = await UserManager.FindByIdAsync(userId);
+        if (user != null)
+        {
+            var roles = await UserManager.GetRolesAsync(user);
+            var result = await UserManager.DeleteAsync(user);
+            if (result.Succeeded)
+            {
+                // Remove the user from the UserList
+                UserList.RemoveAll(u => u.Id == userId);
+                FilteredUserList.RemoveAll(u => u.Id == userId);
+                StateHasChanged(); // Refresh the UI
+            }
+            else
+            {
+                Console.WriteLine("Error deleting user");
+            }
+        }
+    }
+
+    private async Task ToggleUserLockout(string userId, bool isLockedOut)
+    {
+        var user = await UserManager.FindByIdAsync(userId);
+        if (user != null)
+        {
+            user.LockoutEnabled = !isLockedOut;
+            if (!isLockedOut)
+            {
+                user.LockoutEnd = DateTimeOffset.MaxValue;
+            }
+            else
+            {
+                user.LockoutEnd = null;
+            }
+            var result = await UserManager.UpdateAsync(user);
+            if (result.Succeeded)
+            {
+                var userWithRoles = UserList.FirstOrDefault(u => u.Id == userId);
+                if (userWithRoles != null)
+                {
+                    userWithRoles.LockoutEnabled = user.LockoutEnabled;
+                }
+                StateHasChanged(); // Refresh the UI
+            }
+            else
+            {
+                Console.WriteLine("Error updating user lockout status");
+            }
+        }
+    }
+
+    public class UserWithRoles
+    {
+        public string Id { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
+        public string UserName { get; set; } = string.Empty;
+        public List<string> Roles { get; set; } = new();
+        public bool LockoutEnabled { get; set; }
+    }
+}
+
+<style>
+    /* Estilos gerais */
+    .titulo {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 28px;
+        color: #333;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+    }
+
+    /* Estilo da tabela */
+    .tabela {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+        .tabela th, .tabela td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .tabela th {
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+        }
+
+    /* Style for the filter container */
+    .filter-container {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+        .filter-container select {
+            padding: 5px;
+            font-size: 16px;
+        }
+</style>
+
+<script>
+    function sortTable(columnIndex) {
+        const table = document.getElementById("userTable");
+        const rows = Array.from(table.rows).slice(1);
+        const isAscending = table.getAttribute("data-sort-dir") === "asc";
+        const direction = isAscending ? -1 : 1;
+
+        rows.sort((rowA, rowB) => {
+            const cellA = rowA.cells[columnIndex].textContent.trim().toLowerCase();
+            const cellB = rowB.cells[columnIndex].textContent.trim().toLowerCase();
+
+            if (cellA < cellB) return -1 * direction;
+            if (cellA > cellB) return 1 * direction;
+            return 0;
+        });
+
+        table.tBodies[0].append(...rows);
+        table.setAttribute("data-sort-dir", isAscending ? "desc" : "asc");
+    }
+</script>

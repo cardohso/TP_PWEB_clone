@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Publish",
+  "Endpoints": [
+    {
+      "Route": "RCLComum.hf7k6hm7l4.styles.css",
+      "AssetFile": "RCLComum.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3816"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y9OegZMJmF35zEVIFkUapwkI3a31LYcaCALM/kwK9uc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 23:36:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hf7k6hm7l4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y9OegZMJmF35zEVIFkUapwkI3a31LYcaCALM/kwK9uc="
+        },
+        {
+          "Name": "label",
+          "Value": "RCLComum.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "RCLComum.styles.css",
+      "AssetFile": "RCLComum.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3816"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y9OegZMJmF35zEVIFkUapwkI3a31LYcaCALM/kwK9uc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 23:36:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y9OegZMJmF35zEVIFkUapwkI3a31LYcaCALM/kwK9uc="
+        }
+      ]
+    }
+  ]
+}

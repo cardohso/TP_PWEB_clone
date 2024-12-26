@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/RCLProdutos/RCLProdutos.1g2llw64rf.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\RCLProdutos.1g2llw64rf.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1g2llw64rf"},{"Name":"integrity","Value":"sha256-X\u002BuXOAKNKVCEceKkKSlSuDg9QkzvssepZhguv1qaYpI="},{"Name":"label","Value":"_content/RCLProdutos/RCLProdutos.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"11161"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022X\u002BuXOAKNKVCEceKkKSlSuDg9QkzvssepZhguv1qaYpI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Dec 2024 18:36:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RCLProdutos/RCLProdutos.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\RCLProdutos.1g2llw64rf.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-X\u002BuXOAKNKVCEceKkKSlSuDg9QkzvssepZhguv1qaYpI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"11161"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022X\u002BuXOAKNKVCEceKkKSlSuDg9QkzvssepZhguv1qaYpI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Dec 2024 18:36:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

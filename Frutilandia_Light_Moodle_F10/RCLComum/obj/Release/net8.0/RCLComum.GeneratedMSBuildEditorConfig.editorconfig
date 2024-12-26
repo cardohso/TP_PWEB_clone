@@ -1,0 +1,49 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows,browser
+build_property.RootNamespace = RCLComum
+build_property.RootNamespace = RCLComum
+build_property.ProjectDir = C:\Users\User\Desktop\PWEB\Frutilandia_Light_Moodle_F10\RCLComum\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\PWEB\Frutilandia_Light_Moodle_F10\RCLComum
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/User/Desktop/PWEB/Frutilandia_Light_Moodle_F10/RCLComum/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/PWEB/Frutilandia_Light_Moodle_F10/RCLComum/Shared/BtnCarrinho.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEJ0bkNhcnJpbmhvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-gx1sm3g3cb
+
+[C:/Users/User/Desktop/PWEB/Frutilandia_Light_Moodle_F10/RCLComum/Shared/BtnLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEJ0bkxvZ2luLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-t1acya91s6
+
+[C:/Users/User/Desktop/PWEB/Frutilandia_Light_Moodle_F10/RCLComum/Shared/BtnRegister.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEJ0blJlZ2lzdGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-6l6hj97lse
+
+[C:/Users/User/Desktop/PWEB/Frutilandia_Light_Moodle_F10/RCLComum/Shared/HeaderComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhlYWRlckNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-f1uj7lwwfx
+
+[C:/Users/User/Desktop/PWEB/Frutilandia_Light_Moodle_F10/RCLComum/Shared/LocationComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvY2F0aW9uQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-s6fbsqhdck
+
+[C:/Users/User/Desktop/PWEB/Frutilandia_Light_Moodle_F10/RCLComum/Shared/NavLoginComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdkxvZ2luQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-498gqg2nlc

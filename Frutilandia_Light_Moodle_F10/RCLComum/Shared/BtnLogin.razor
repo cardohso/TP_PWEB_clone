@@ -1,0 +1,13 @@
+﻿@inject NavigationManager Navigation
+
+<button class="btn-favoritos" @onclick="NavigateToLogin">
+    <img src="images/icoperfil.png" alt="Login" />
+    <p style="color:Red">Login</p>
+</button>
+
+@code {
+    private void NavigateToLogin()
+    {
+        Navigation.NavigateTo("/login"); // Navega para a página de login
+    }
+}

@@ -1,0 +1,177 @@
+﻿@page "/pedidos"
+@using GestãoLoja.Entities
+@using GestãoLoja.Data
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.EntityFrameworkCore
+@inject NavigationManager Navigation
+@inject ApplicationDbContext DbContext
+@rendermode InteractiveServer
+@attribute [Authorize(Roles = "Admin,Gestor")]
+
+<h3 class="titulo">Gestão de Pedidos</h3>
+
+<div class="container">
+    <!-- Filter by Status -->
+    <div class="filter-container">
+        <label for="statusFilter">Filtrar por status:</label>
+        <select id="statusFilter" @onchange="FilterByStatus">
+            <option value="">*Todos*</option>
+            @foreach (var status in StatusList)
+            {
+                <option value="@status">@status</option>
+            }
+        </select>
+    </div>
+
+    <!-- Tabela de Pedidos -->
+    <table class="tabela" id="pedidoTable">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">Id</th>
+                <th onclick="sortTable(1)">Data</th>
+                <th onclick="sortTable(2)">Cliente</th>
+                <th onclick="sortTable(3)">Status</th>
+                <th onclick="sortTable(4)">Total</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var pedido in PedidoList)
+            {
+                <tr>
+                    <td>@pedido.Id</td>
+                    <td>@pedido.Data.ToString("dd/MM/yyyy")</td>
+                    <td>@pedido.Cliente.Nome</td>
+                    <td>@pedido.Status</td>
+                    <td>@pedido.Total.ToString("C")</td>
+                    <td>
+                        <button @onclick="() => CancelarPedido(pedido.Id)" disabled="@pedido.Status == " Cancelado"">Cancelar</button>
+                        <button @onclick="() => ConcluirPedido(pedido.Id)" disabled="@pedido.Status == " Concluído"">Concluir</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@code {
+    private List<Pedido> PedidoList = new();
+    private List<string> StatusList = new() { "Pendente", "Concluído", "Cancelado" };
+
+    protected override async Task OnInitializedAsync()
+    {
+        PedidoList = await DbContext.Pedidos
+            .Include(p => p.Cliente)
+            .ToListAsync();
+    }
+
+    private async Task CancelarPedido(int pedidoId)
+    {
+        var pedido = await DbContext.Pedidos.FindAsync(pedidoId);
+        if (pedido != null && pedido.Status != "Cancelado")
+        {
+            pedido.Status = "Cancelado";
+            await DbContext.SaveChangesAsync();
+            StateHasChanged(); // Refresh the UI
+        }
+    }
+
+    private async Task ConcluirPedido(int pedidoId)
+    {
+        var pedido = await DbContext.Pedidos.FindAsync(pedidoId);
+        if (pedido != null && pedido.Status != "Concluído")
+        {
+            pedido.Status = "Concluído";
+            await DbContext.SaveChangesAsync();
+            StateHasChanged(); // Refresh the UI
+        }
+    }
+
+    private void FilterByStatus(ChangeEventArgs e)
+    {
+        var selectedStatus = e.Value.ToString();
+        if (string.IsNullOrEmpty(selectedStatus))
+        {
+            PedidoList = DbContext.Pedidos
+                .Include(p => p.Cliente)
+                .ToList();
+        }
+        else
+        {
+            PedidoList = DbContext.Pedidos
+                .Include(p => p.Cliente)
+                .Where(p => p.Status == selectedStatus)
+                .ToList();
+        }
+        StateHasChanged(); // Refresh the UI
+    }
+}
+
+<style>
+    /* Estilos gerais */
+    .titulo {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 28px;
+        color: #333;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+    }
+
+    /* Estilo da tabela */
+    .tabela {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+        .tabela th, .tabela td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .tabela th {
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+        }
+
+    /* Style for the filter container */
+    .filter-container {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+        .filter-container select {
+            padding: 5px;
+            font-size: 16px;
+        }
+</style>
+
+<script>
+    function sortTable(columnIndex) {
+        const table = document.getElementById("pedidoTable");
+        const rows = Array.from(table.rows).slice(1);
+        const isAscending = table.getAttribute("data-sort-dir") === "asc";
+        const direction = isAscending ? -1 : 1;
+
+        rows.sort((rowA, rowB) => {
+            const cellA = rowA.cells[columnIndex].textContent.trim().toLowerCase();
+            const cellB = rowB.cells[columnIndex].textContent.trim().toLowerCase();
+
+            if (cellA < cellB) return -1 * direction;
+            if (cellA > cellB) return 1 * direction;
+            return 0;
+        });
+
+        table.tBodies[0].append(...rows);
+        table.setAttribute("data-sort-dir", isAscending ? "desc" : "asc");
+    }
+</script>

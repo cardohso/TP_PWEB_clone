@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "Hash": "ePxJ+aqqrPun+666dqhv100Vk2CUDA9cwYvgY80HkMg=",
+  "Source": "RCLComum",
+  "BasePath": "_content/RCLComum",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RclAPI\\RCLAPI.csproj",
+      "Version": 2,
+      "Source": "RCLAPI",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RCLComum.styles.css",
+      "SourceId": "RCLComum",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/RCLComum",
+      "RelativePath": "RCLComum#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "hf7k6hm7l4",
+      "Integrity": "Y9OegZMJmF35zEVIFkUapwkI3a31LYcaCALM/kwK9uc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RCLComum.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLComum.bundle.scp.css",
+      "SourceId": "RCLComum",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/RCLComum",
+      "RelativePath": "RCLComum#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "hf7k6hm7l4",
+      "Integrity": "Y9OegZMJmF35zEVIFkUapwkI3a31LYcaCALM/kwK9uc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLComum.bundle.scp.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "RCLComum.bundle.scp.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLComum.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3816"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y9OegZMJmF35zEVIFkUapwkI3a31LYcaCALM/kwK9uc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 23:36:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y9OegZMJmF35zEVIFkUapwkI3a31LYcaCALM/kwK9uc="
+        }
+      ]
+    },
+    {
+      "Route": "RCLComum.hf7k6hm7l4.bundle.scp.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLComum.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3816"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y9OegZMJmF35zEVIFkUapwkI3a31LYcaCALM/kwK9uc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 23:36:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hf7k6hm7l4"
+        },
+        {
+          "Name": "label",
+          "Value": "RCLComum.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y9OegZMJmF35zEVIFkUapwkI3a31LYcaCALM/kwK9uc="
+        }
+      ]
+    },
+    {
+      "Route": "RCLComum.hf7k6hm7l4.styles.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RCLComum.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3816"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y9OegZMJmF35zEVIFkUapwkI3a31LYcaCALM/kwK9uc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 23:36:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hf7k6hm7l4"
+        },
+        {
+          "Name": "label",
+          "Value": "RCLComum.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y9OegZMJmF35zEVIFkUapwkI3a31LYcaCALM/kwK9uc="
+        }
+      ]
+    },
+    {
+      "Route": "RCLComum.styles.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RCLComum.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3816"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y9OegZMJmF35zEVIFkUapwkI3a31LYcaCALM/kwK9uc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 23:36:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y9OegZMJmF35zEVIFkUapwkI3a31LYcaCALM/kwK9uc="
+        }
+      ]
+    }
+  ]
+}
