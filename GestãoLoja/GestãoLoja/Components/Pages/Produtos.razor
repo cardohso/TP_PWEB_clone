@@ -1,20 +1,24 @@
 ﻿@page "/produtos"
 @using GestãoLoja.Entities
 @using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Authorization
 @inject Data.ApplicationDbContext DbContext
 @rendermode InteractiveServer
+
+@attribute [Authorize]
 
 <h3>Gestão de Produtos</h3>
 
 <!-- Tabela de Produtos -->
-<table class="tabela">
+<table class="tabela" id="produtoTable">
     <thead>
         <tr>
-            <th>Id</th>
-            <th>Nome</th>
-            <th>Preço</th>
-            <th>Estoque</th>
-            <th>Categoria</th>
+            <th onclick="sortTable(0, 'produtoTable')">Id</th>
+            <th onclick="sortTable(1, 'produtoTable')">Nome</th>
+            <th onclick="sortTable(2, 'produtoTable')">Preço</th>
+            <th onclick="sortTable(3, 'produtoTable')">Estoque</th>
+            <th onclick="sortTable(4, 'produtoTable')">Categoria</th>
+            <th onclick="sortTable(5, 'produtoTable')">Ativo</th>
             <th>Ações</th>
         </tr>
     </thead>
@@ -26,7 +30,8 @@
                 <td>@produto.Nome</td>
                 <td>@produto.Preco.ToString("C")</td>
                 <td>@produto.Estoque</td>
-                <td>@produto.Categoria.Nome</td>
+                <td>@produto.Categoria?.Nome</td>
+                <td>@(produto.Ativo ? "Sim" : "Não")</td>
                 <td>
                     <button class="btn editar" @onclick="() => EditarProduto(produto)">Editar</button>
                     <button class="btn excluir" @onclick="() => ExcluirProduto(produto.Id)">Excluir</button>
@@ -37,13 +42,20 @@
 </table>
 
 <!-- Botão para adicionar novo produto -->
-<button class="btn nova-categoria" @onclick="NovaProduto">Novo Produto</button>
+<button class="btn nova-categoria" @onclick="NovoProduto">Novo Produto</button>
 
 <!-- Formulário de Edição de Produto -->
-@if (EditandoProduto)
+@if (AEditarProduto)
 {
     <div class="formulario-edicao">
         <h4>@(ProdutoAtual.Id == 0 ? "Novo Produto" : "Editar Produto")</h4>
+
+        <!-- Exibe mensagem de erro se houver -->
+        @if (!string.IsNullOrWhiteSpace(MensagemErro))
+        {
+            <div class="mensagem-erro">@MensagemErro</div>
+        }
+
         <div class="campo">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" @bind="ProdutoAtual.Nome" />
@@ -70,6 +82,10 @@
                 }
             </select>
         </div>
+        <div class="campo">
+            <label for="ativo">Ativo:</label>
+            <input type="checkbox" id="ativo" @bind="ProdutoAtual.Ativo" />
+        </div>
         <div class="botoes">
             <button class="btn salvar" @onclick="SalvarProduto">Salvar</button>
             <button class="btn cancelar" @onclick="CancelarEdicaoProduto">Cancelar</button>
@@ -82,24 +98,46 @@
     private List<Categoria> ListaCategorias = new();
     private Produto ProdutoAtual = new Produto();
     private Produto ProdutoOriginal = new Produto(); // Para armazenar o estado original
-    private bool EditandoProduto = false;
+    private bool AEditarProduto = false;
+    private string MensagemErro = string.Empty; // Para armazenar mensagens de erro
 
     protected override async Task OnInitializedAsync()
     {
-        // Carrega os produtos e categorias do banco
-        ListaProdutos = await DbContext.Produtos.Include(p => p.Categoria).ToListAsync();
-        ListaCategorias = await DbContext.Categorias.ToListAsync();
+        try
+        {
+            // Carrega os produtos e categorias do banco
+            ListaProdutos = await DbContext.Produtos.Include(p => p.Categoria).ToListAsync();
+            ListaCategorias = await DbContext.Categorias.ToListAsync();
+
+            // Atualiza o status "Ativo" baseado no estoque
+            foreach (var produto in ListaProdutos)
+            {
+                if (produto.Estoque == 0)
+                {
+                    produto.Ativo = false;
+                }
+                else
+                {
+                    produto.Ativo = true;
+                }
+                StateHasChanged();
+            }
+        }
+        catch (Exception ex)
+        {
+            MensagemErro = $"Erro ao carregar dados: {ex.Message}";
+        }
     }
 
-    private void NovaProduto()
+    private void NovoProduto()
     {
         ProdutoAtual = new Produto(); // Cria um novo produto em branco
-        EditandoProduto = true;
+        MensagemErro = string.Empty; // Limpa a mensagem de erro
+        AEditarProduto = true;
     }
 
     private void EditarProduto(Produto produto)
     {
-        ProdutoAtual = produto; // Carrega os dados do produto para edição
         ProdutoOriginal = new Produto
             {
                 Id = produto.Id,
@@ -107,38 +145,106 @@
                 Preco = produto.Preco,
                 Descricao = produto.Descricao,
                 Estoque = produto.Estoque,
-                CategoriaId = produto.CategoriaId
+                CategoriaId = produto.CategoriaId,
+                Ativo = produto.Ativo
             }; // Armazena o estado original
-        EditandoProduto = true;
+
+        ProdutoAtual = new Produto
+            {
+                Id = produto.Id,
+                Nome = produto.Nome,
+                Preco = produto.Preco,
+                Descricao = produto.Descricao,
+                Estoque = produto.Estoque,
+                CategoriaId = produto.CategoriaId,
+                Ativo = produto.Ativo
+            }; // Cria uma cópia para edição
+
+        MensagemErro = string.Empty; // Limpa a mensagem de erro
+        AEditarProduto = true;
     }
 
     private async Task ExcluirProduto(int id)
     {
-        var produto = await DbContext.Produtos.FindAsync(id);
-        if (produto != null)
+        try
         {
-            DbContext.Produtos.Remove(produto);
-            await DbContext.SaveChangesAsync();
-            ListaProdutos = await DbContext.Produtos.Include(p => p.Categoria).ToListAsync();
+            var produto = await DbContext.Produtos.FindAsync(id);
+            if (produto != null)
+            {
+                DbContext.Produtos.Remove(produto);
+                await DbContext.SaveChangesAsync();
+                ListaProdutos = await DbContext.Produtos.Include(p => p.Categoria).ToListAsync();
+            }
+        }
+        catch (Exception ex)
+        {
+            MensagemErro = $"Erro ao excluir produto: {ex.Message}";
         }
     }
 
     private async Task SalvarProduto()
     {
-        if (ProdutoAtual.Id == 0)
+        try
         {
-            // Adiciona novo produto
-            DbContext.Produtos.Add(ProdutoAtual);
-        }
-        else
-        {
-            // Atualiza produto existente
-            DbContext.Produtos.Update(ProdutoAtual);
-        }
+            // Verifica se o preço é negativo
+            if (ProdutoAtual.Preco < 0)
+            {
+                MensagemErro = "O preço não pode ser negativo.";
+                return;
+            }
 
-        await DbContext.SaveChangesAsync();
-        ListaProdutos = await DbContext.Produtos.Include(p => p.Categoria).ToListAsync();
-        EditandoProduto = false;
+            if (ProdutoAtual.Estoque < 0)
+            {
+                MensagemErro = "O estoque não pode ser negativo.";
+                return;
+            }
+
+            if (ProdutoAtual.CategoriaId == 0)
+            {
+                MensagemErro = "Por favor, selecione uma categoria.";
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(ProdutoAtual.Descricao))
+            {
+                MensagemErro = "A descrição não pode estar vazia.";
+                return;
+            }
+
+            // Atualiza o status "Ativo" baseado no estoque
+            if (ProdutoAtual.Estoque == 0)
+            {
+                ProdutoAtual.Ativo = false;
+            }
+
+            if (ProdutoAtual.Id == 0)
+            {
+                // Adiciona novo produto
+                DbContext.Produtos.Add(ProdutoAtual);
+            }
+            else
+            {
+                // Atualiza produto existente
+                var produtoExiste = await DbContext.Produtos.FindAsync(ProdutoAtual.Id);
+                if (produtoExiste != null)
+                {
+                    DbContext.Entry(produtoExiste).CurrentValues.SetValues(ProdutoAtual);
+                }
+            }
+
+            await DbContext.SaveChangesAsync();
+            ListaProdutos = await DbContext.Produtos.Include(p => p.Categoria).ToListAsync();
+            AEditarProduto = false;
+        }
+        catch (DbUpdateException ex)
+        {
+            var innerException = ex.InnerException != null ? ex.InnerException.Message : ex.Message;
+            MensagemErro = $"Erro ao salvar produto: {innerException}";
+        }
+        catch (Exception ex)
+        {
+            MensagemErro = $"Erro ao salvar produto: {ex.Message}";
+        }
     }
 
     private void CancelarEdicaoProduto()
@@ -151,13 +257,16 @@
                 Preco = ProdutoOriginal.Preco,
                 Descricao = ProdutoOriginal.Descricao,
                 Estoque = ProdutoOriginal.Estoque,
-                CategoriaId = ProdutoOriginal.CategoriaId
+                CategoriaId = ProdutoOriginal.CategoriaId,
+                Ativo = ProdutoOriginal.Ativo
             };
 
-        EditandoProduto = false; // Fecha o formulário de edição
+        AEditarProduto = false; // Fecha o formulário de edição
     }
 }
 
+<!-- Falta: "Apagar “fisicamente” os registos de produtos (apenas se não existirem vendas desse
+produto)" -->
 
 <style>
     .tabela {
@@ -175,6 +284,7 @@
         .tabela th {
             background-color: #007BFF;
             color: white;
+            cursor: pointer;
         }
 
     .btn {
@@ -247,4 +357,47 @@
     .botoes {
         margin-top: 15px;
     }
+
+    .mensagem-erro {
+        color: red;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
 </style>
+
+<script>
+    function sortTable(columnIndex, tableId) {
+        const table = document.getElementById(tableId);
+        const rows = Array.from(table.rows).slice(1); // Exclude the header row
+        const isAscending = table.getAttribute(`data-sort-dir-${columnIndex}`) === "asc"; // Track sort direction per column
+        const direction = isAscending ? -1 : 1;
+
+        rows.sort((rowA, rowB) => {
+            let cellA = rowA.cells[columnIndex].textContent.trim();
+            let cellB = rowB.cells[columnIndex].textContent.trim();
+
+            // Detect and handle numeric sorting
+            const numA = parseFloat(cellA.replace(/[^0-9.-]+/g, ""));
+            const numB = parseFloat(cellB.replace(/[^0-9.-]+/g, ""));
+            const isNumber = !isNaN(numA) && !isNaN(numB);
+
+            if (isNumber) {
+                return (numA - numB) * direction;
+            }
+
+            // Default to case-insensitive string comparison
+            cellA = cellA.toLowerCase();
+            cellB = cellB.toLowerCase();
+
+            if (cellA < cellB) return -1 * direction;
+            if (cellA > cellB) return 1 * direction;
+            return 0;
+        });
+
+        // Append sorted rows back to the table
+        table.tBodies[0].append(...rows);
+
+        // Update sort direction for this column
+        table.setAttribute(`data-sort-dir-${columnIndex}`, isAscending ? "desc" : "asc");
+    }
+</script>

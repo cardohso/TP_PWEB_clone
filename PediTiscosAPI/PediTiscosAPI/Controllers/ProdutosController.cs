@@ -1,77 +1,69 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using PediTiscosAPI.Data;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using PediTiscosAPI.Entities;
+using PediTiscosAPI.Repositories;
 
 namespace PediTiscosAPI.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
+    [Authorize] // Exige autenticação para todos os métodos por padrão
     public class ProdutosController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly IProdutoRepository _produtoRepository;
 
-        public ProdutosController(AppDbContext context)
+        public ProdutosController(IProdutoRepository produtoRepository)
         {
-            _context = context;
+            _produtoRepository = produtoRepository;
         }
 
-        // Listar produtos
+        // GET: api/Produtos
         [HttpGet]
+        [AllowAnonymous] // Qualquer pessoa pode acessar sem autenticação
         public async Task<IActionResult> GetProdutos()
         {
-            var produtos = await _context.Produtos.Include(p => p.Categoria).ToListAsync();
+            var produtos = await _produtoRepository.ObterTodosProdutosAsync();
             return Ok(produtos);
         }
 
-        // Adicionar um novo produto
-        [HttpPost]
-        public async Task<IActionResult> AddProduto([FromBody] Produto produto)
-        {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
-
-            _context.Produtos.Add(produto);
-            await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetProdutos), new { id = produto.Id }, produto);
-        }
-
-        // Atualizar um produto
+        // PUT: api/Produtos/{id}
         [HttpPut("{id}")]
+        [Authorize(Roles = "ADMIN, MANAGER")] // Apenas "ADMIN" e "MANAGER" podem atualizar produtos
         public async Task<IActionResult> UpdateProduto(int id, [FromBody] Produto produto)
         {
             if (id != produto.Id)
                 return BadRequest("ID do produto não corresponde.");
+            if (produto is null)
+            {
+                throw new ArgumentNullException(nameof(produto));
+            }
 
-            _context.Entry(produto).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
+            await _produtoRepository.AtualizarProdutoAsync(produto);
             return NoContent();
         }
 
-        // Excluir um produto
+        // DELETE: api/Produtos/{id}
         [HttpDelete("{id}")]
+        [Authorize(Roles = "ADMIN")] // Apenas "ADMIN" pode deletar produtos
         public async Task<IActionResult> DeleteProduto(int id)
         {
-            var produto = await _context.Produtos.FindAsync(id);
+            var produto = await _produtoRepository.ObterProdutoPorIdAsync(id);
             if (produto == null)
                 return NotFound();
 
-            _context.Produtos.Remove(produto);
-            await _context.SaveChangesAsync();
+            await _produtoRepository.RemoverProdutoAsync(id);
             return NoContent();
         }
 
-        // Ativar/Inativar um produto
+        // PATCH: api/Produtos/{id}/status
         [HttpPatch("{id}/status")]
+        [Authorize(Roles = "ADMIN, MANAGER")] // Apenas "ADMIN" e "MANAGER" podem alterar status do produto
         public async Task<IActionResult> ToggleProdutoStatus(int id)
         {
-            var produto = await _context.Produtos.FindAsync(id);
+            var produto = await _produtoRepository.ToggleStatusProdutoAsync(id);
             if (produto == null)
                 return NotFound();
 
-            produto.Ativo = !produto.Ativo;
-            _context.Entry(produto).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
             return Ok(produto);
         }
     }

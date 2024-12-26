@@ -1,0 +1,150 @@
+﻿@using RCLAPI.DTO
+@using RCLProdutos.Services.Interfaces
+@inject IApiServices apiService
+@inject ISliderUtilsServices sliderUtilsServices
+
+<div class="slider-wrapper">
+    <h3>Slider de Produtos</h3>
+
+    @if (produtos == null)
+    {
+        <p>Carregando produtos...</p>
+    }
+    else if (!produtos.Any())
+    {
+        <p>Nenhum produto encontrado.</p>
+    }
+    else
+    {
+        <div class="slider-container">
+            <!-- Container de slides que irá ser movido com a navegação -->
+            <div class="slides" style="transform: translateX(@(-sliderUtilsServices.Index * sliderUtilsServices.WidthSlide2)px);">
+                @foreach (var produto in produtos)
+                {
+                    <div class="slide">
+                        <img src="@produto.UrlImagem" alt="@produto.Nome" class="product-image" />
+                        <div class="product-info">
+                            <h4>@produto.Nome</h4>
+                            <p>ID: @produto.Id</p>
+                            <p class="price">@produto.Preco.ToString("C")</p>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="slider-controls">
+            <button @onclick="PreviousSlide" class="btn btn-prev">Anterior</button>
+            <button @onclick="NextSlide" class="btn btn-next">Próximo</button>
+        </div>
+    }
+</div>
+
+<style>
+    .slider-wrapper {
+        text-align: center;
+        margin: 20px auto;
+        max-width: 600px; /* Tamanho máximo do slider */
+    }
+
+    .slider-container {
+        position: relative;
+        overflow: hidden; /* Oculta os slides fora do contêiner */
+        width: 100%;
+        height: 350px; /* Ajuste a altura do slide conforme necessário */
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+    }
+
+    .slides {
+        display: flex;
+        transition: transform 0.5s ease-in-out; /* Transição suave */
+        width: 100%; /* A largura total do container será o total de slides em sequência */
+    }
+
+    .slide {
+        flex: 0 0 100%; /* Cada slide ocupa 100% da largura do contêiner */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+        flex-direction: column;
+    }
+
+    .product-image {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .product-info {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+        .product-info h4 {
+            font-size: 1.25rem;
+            margin-bottom: 5px;
+        }
+
+    .price {
+        font-size: 1.1rem;
+        color: #28a745;
+    }
+
+    .slider-controls {
+        margin-top: 10px;
+    }
+
+    .btn {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        font-size: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 0 10px;
+    }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        .btn:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+</style>
+
+@code {
+    private List<Produto>? produtos;
+
+    protected override async Task OnInitializedAsync()
+    {
+        produtos = await apiService.GetProdutos();
+        sliderUtilsServices.CountSlide = produtos?.Count ?? 0;
+        sliderUtilsServices.WidthSlide2 = 600; // Largura de cada slide
+
+        // Certifique-se de que o número de slides seja configurado corretamente.
+    }
+
+    private void NextSlide()
+    {
+        if (sliderUtilsServices.Index < sliderUtilsServices.CountSlide - 1)
+        {
+            sliderUtilsServices.Index++;
+        }
+    }
+
+    private void PreviousSlide()
+    {
+        if (sliderUtilsServices.Index > 0)
+        {
+            sliderUtilsServices.Index--;
+        }
+    }
+}

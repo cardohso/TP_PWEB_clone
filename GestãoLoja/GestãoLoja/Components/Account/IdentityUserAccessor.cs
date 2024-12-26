@@ -1,4 +1,5 @@
 using GestãoLoja.Data;
+using GestãoLoja.Entities;
 using Microsoft.AspNetCore.Identity;
 
 namespace GestãoLoja.Components.Account

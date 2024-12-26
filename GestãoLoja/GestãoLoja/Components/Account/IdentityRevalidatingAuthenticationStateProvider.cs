@@ -1,5 +1,6 @@
 using System.Security.Claims;
 using GestãoLoja.Data;
+using GestãoLoja.Entities;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Server;
 using Microsoft.AspNetCore.Identity;

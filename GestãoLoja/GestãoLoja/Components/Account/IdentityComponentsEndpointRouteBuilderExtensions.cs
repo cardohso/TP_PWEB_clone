@@ -3,6 +3,7 @@ using System.Text.Json;
 using GestãoLoja.Components.Account.Pages;
 using GestãoLoja.Components.Account.Pages.Manage;
 using GestãoLoja.Data;
+using GestãoLoja.Entities;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Http.Extensions;

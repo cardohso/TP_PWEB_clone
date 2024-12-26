@@ -4,6 +4,10 @@ using GestãoLoja.Data;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using GestãoLoja.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -50,7 +54,13 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents(); // Configurar interatividade no servidor
 
 // Serviço de email (substitua conforme necessário)
-builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
+// builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
+// builder.Services.AddSingleton<IEmailSender, IdentityNoOpEmailSender>();
+
+
+// Configurar logging
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
 
 var app = builder.Build();
 
@@ -105,15 +115,49 @@ static async Task SeedRolesAndAdminAsync(IServiceProvider serviceProvider)
     }
 
     // Criar usuário administrador padrão
-    var adminEmail = "admin@loja.com";
+    var adminUsername = "Admin";
+    var adminEmail = "Admin@loja.com";
     var adminPassword = "Admin123!";
+    var adminNome = "Admin";
+    var adminApelido = "Admin";
+    var adminNIF = "999";
+    var adminRua = "admin rua";
+    var adminLocalidade1 = "admin loc";
+    var adminLocalidade2 = "admin loc2";
+    var adminPaís = "admin país";
+
+    // Criar usuário gestor padrão
+    var gestorUsername = "gestor";
+    var gestorEmail = "gestor@loja.com";
+    var gestorPassword = "Gestor123!";
+
+    // Criar usuário cliente padrão
+    var clienteUsername = "cliente";
+    var clienteEmail = "cliente@loja.com";
+    var clientePassword = "Cliente123!";
+    var clienteNome = "Cliente";
+    var clienteApelido = "Cliente";
+    var clienteNIF = "123";
+    var clienteRua = "cliente rua";
+    var clienteLocalidade1 = "cliente loc";
+    var clienteLocalidade2 = "cliente loc2";
+    var clientePaís = "cliente país";
+
 
     if (await userManager.FindByEmailAsync(adminEmail) == null)
     {
         var adminUser = new ApplicationUser
         {
-            UserName = adminEmail,
+            UserName = adminUsername,
             Email = adminEmail,
+            Nome = adminNome,
+            Apelido = adminApelido,
+            NIF = adminNIF,
+            Rua = adminRua,
+            Localidade1 = adminLocalidade1,
+            Localidade2 = adminLocalidade2,
+            Pais = adminPaís,
+            LockoutEnabled = false,
             EmailConfirmed = true // Marcar como confirmado
         };
 
@@ -123,4 +167,45 @@ static async Task SeedRolesAndAdminAsync(IServiceProvider serviceProvider)
             await userManager.AddToRoleAsync(adminUser, "Admin"); // Adicionar ao role "Admin"
         }
     }
+    /*
+    if (await userManager.FindByEmailAsync(gestorEmail) == null)
+    {
+        var funcUser = new ApplicationUser
+        {
+            UserName = gestorUsername,
+            Email = gestorEmail,
+            EmailConfirmed = true // Marcar como confirmado
+        };
+
+        var result = await userManager.CreateAsync(funcUser, gestorPassword);
+        if (result.Succeeded)
+        {
+            await userManager.AddToRoleAsync(funcUser, "Gestor"); // Adicionar ao role "Gestor"
+        }
+    }
+    */
+    if (await userManager.FindByEmailAsync(clienteEmail) == null)
+    {
+        var clienteUser = new ApplicationUser
+        {
+            UserName = clienteUsername,
+            Email = clienteEmail,
+            Nome = clienteNome,
+            Apelido = clienteApelido,
+            NIF = clienteNIF,
+            Rua = clienteRua,
+            Localidade1 = clienteLocalidade1,
+            Localidade2 = clienteLocalidade2,
+            Pais = clientePaís,
+            LockoutEnabled = false,
+            EmailConfirmed = true // Marcar como confirmado
+        };
+
+        var result = await userManager.CreateAsync(clienteUser, clientePassword);
+        if (result.Succeeded)
+        {
+            await userManager.AddToRoleAsync(clienteUser, "Cliente"); // Adicionar ao role "Cliente"
+        }
+    }
 }
+

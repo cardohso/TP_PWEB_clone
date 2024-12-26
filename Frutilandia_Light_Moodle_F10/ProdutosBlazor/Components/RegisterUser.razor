@@ -1,0 +1,114 @@
+﻿@page "/registeruser"
+@using RCLAPI.DTO
+@using System.ComponentModel.DataAnnotations
+@inject IApiServices apiService
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+
+<h3 class="text-center mb-4">Registo de Utilizador</h3>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger text-center shadow-sm">@errorMessage</div>
+}
+
+<EditForm Model="@utilizador" OnValidSubmit="HandleRegister">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="row">
+        <!-- Coluna da Esquerda -->
+        <div class="col-md-6 mb-4">
+            <div class="form-group">
+                <label for="nome" class="font-weight-bold text-muted">Nome</label>
+                <InputText id="nome" class="form-control form-control-lg input-shadow" @bind-Value="utilizador.Nome" placeholder="Insira o seu nome" required />
+            </div>
+
+            <div class="form-group">
+                <label for="apelido" class="font-weight-bold text-muted">Apelido</label>
+                <InputText id="apelido" class="form-control form-control-lg input-shadow" @bind-Value="utilizador.Apelido" placeholder="Insira o seu apelido" required />
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="font-weight-bold text-muted">Email</label>
+                <InputText id="email" class="form-control form-control-lg input-shadow" @bind-Value="utilizador.Email" placeholder="Insira o seu email" required />
+            </div>
+
+            <div class="form-group">
+                <label for="nif" class="font-weight-bold text-muted">NIF</label>
+                <InputText id="nif" class="form-control form-control-lg input-shadow" @bind-Value="utilizador.NIF" placeholder="Insira o seu NIF" required />
+            </div>
+        </div>
+
+        <!-- Coluna da Direita -->
+        <div class="col-md-6 mb-4">
+            <div class="form-group">
+                <label for="rua" class="font-weight-bold text-muted">Rua</label>
+                <InputText id="rua" class="form-control form-control-lg input-shadow" @bind-Value="utilizador.Rua" placeholder="Insira o nome da rua" required />
+            </div>
+
+            <div class="form-group">
+                <label for="localidade1" class="font-weight-bold text-muted">Localidade (1)</label>
+                <InputText id="localidade1" class="form-control form-control-lg input-shadow" @bind-Value="utilizador.Localidade1" placeholder="Insira a localidade" required />
+            </div>
+
+            <div class="form-group">
+                <label for="localidade2" class="font-weight-bold text-muted">Localidade (2)</label>
+                <InputText id="localidade2" class="form-control form-control-lg input-shadow" @bind-Value="utilizador.Localidade2" placeholder="Insira a localidade adicional (opcional)" />
+            </div>
+
+            <div class="form-group">
+                <label for="pais" class="font-weight-bold text-muted">País</label>
+                <InputText id="pais" class="form-control form-control-lg input-shadow" @bind-Value="utilizador.Pais" placeholder="Insira o nome do país" required />
+            </div>
+
+            <div class="form-group">
+                <label for="password" class="font-weight-bold text-muted">Senha</label>
+                <InputText id="password" class="form-control form-control-lg input-shadow" @bind-Value="utilizador.Password" type="password" placeholder="Insira a sua senha" required />
+            </div>
+
+            <div class="form-group">
+                <label for="confirmPassword" class="font-weight-bold text-muted">Confirmar Senha</label>
+                <InputText id="confirmPassword" class="form-control form-control-lg input-shadow" @bind-Value="confirmPassword" type="password" placeholder="Confirme a sua senha" required />
+            </div>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary btn-block btn-lg shadow mt-4">Registar</button>
+</EditForm>
+
+@code {
+    private Utilizador utilizador = new Utilizador();
+    private string errorMessage;
+    private string confirmPassword;
+
+    private async Task HandleRegister()
+    {
+        // Verificação das senhas
+        if (utilizador.Password != confirmPassword)
+        {
+            errorMessage = "As senhas não coincidem.";
+            return;
+        }
+        try
+        {
+            var response = await apiService.RegistarUtilizador(utilizador);
+
+            if (response.Data)
+            {
+                Console.WriteLine("Registo realizado com sucesso!");
+                NavigationManager.NavigateTo("/login");
+            }
+            else
+            {
+                errorMessage = response.ErrorMessage ?? "Erro ao realizar o registo.";
+                Console.WriteLine($"Erro: {errorMessage}");
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Erro ao tentar registar: {ex.Message}";
+            Console.WriteLine($"Erro ao tentar registar: {ex.Message}");
+        }
+    }
+}

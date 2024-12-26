@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HoxZLUyHgx3ne20ThH0ngUgceX7d1yhlzl9dxHZCoJ8=",
+  "Hash": "+N2WnD6yeENiIf2nnBQApWILdodV+gUOYEeo4XIy2xk=",
   "Source": "GestãoLoja",
   "BasePath": "_content/GestãoLoja",
   "Mode": "Default",
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bpk8xqwxhs",
-      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "Fingerprint": "6gzpyzhau4",
+      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
@@ -283,7 +283,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 13:53:25 GMT"
+          "Value": "Thu, 26 Dec 2024 22:49:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -320,7 +320,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 13:53:25 GMT"
+          "Value": "Thu, 26 Dec 2024 22:49:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -343,7 +343,7 @@
       ]
     },
     {
-      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css",
       "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\GestãoLoja\\GestãoLoja\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -353,7 +353,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162720"
+          "Value": "162726"
         },
         {
           "Name": "Content-Type",
@@ -361,11 +361,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 13:53:25 GMT"
+          "Value": "Thu, 26 Dec 2024 22:49:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -375,7 +375,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bpk8xqwxhs"
+          "Value": "6gzpyzhau4"
         },
         {
           "Name": "label",
@@ -383,7 +383,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
         }
       ]
     },
@@ -398,7 +398,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162720"
+          "Value": "162726"
         },
         {
           "Name": "Content-Type",
@@ -406,11 +406,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 13:53:25 GMT"
+          "Value": "Thu, 26 Dec 2024 22:49:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -420,7 +420,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
         }
       ]
     },
@@ -447,7 +447,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 13:53:25 GMT"
+          "Value": "Thu, 26 Dec 2024 22:49:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -492,7 +492,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 13:53:25 GMT"
+          "Value": "Thu, 26 Dec 2024 22:49:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -529,7 +529,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 13:53:25 GMT"
+          "Value": "Thu, 26 Dec 2024 22:49:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -574,7 +574,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 13:53:25 GMT"
+          "Value": "Thu, 26 Dec 2024 22:49:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -611,7 +611,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 13:53:32 GMT"
+          "Value": "Thu, 26 Dec 2024 22:49:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -652,7 +652,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 14:18:28 GMT"
+          "Value": "Thu, 26 Dec 2024 22:49:33 GMT"
         },
         {
           "Name": "Link",
@@ -693,7 +693,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 14:18:28 GMT"
+          "Value": "Thu, 26 Dec 2024 22:49:33 GMT"
         },
         {
           "Name": "Link",
@@ -738,7 +738,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 19 Dec 2024 13:53:32 GMT"
+          "Value": "Thu, 26 Dec 2024 22:49:33 GMT"
         },
         {
           "Name": "Cache-Control",

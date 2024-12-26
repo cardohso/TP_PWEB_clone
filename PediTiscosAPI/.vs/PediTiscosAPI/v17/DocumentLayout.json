@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\controllers\\pagamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\controllers\\pagamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\entities\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\entities\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\entities\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\entities\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,74 +27,30 @@
       "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241222152835_agoravai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PediTiscosAPI\\Migrations\\20241222152835_agoravai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\entities\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\entities\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241222152707_PedidosBDExemplo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PediTiscosAPI\\Migrations\\20241222152707_PedidosBDExemplo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\migrations\\20241226220334_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\migrations\\20241226220334_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241222151049_Denovo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PediTiscosAPI\\Migrations\\20241222151049_Denovo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\peditiscosapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\peditiscosapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\peditiscosapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\peditiscosapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\migrations\\20241222200642_pagamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\migrations\\20241222200642_pagamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\migrations\\20241222152904_agora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\migrations\\20241222152904_agora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\migrations\\20241222152003_work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\migrations\\20241222152003_work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\migrations\\20241222151240_primeira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\migrations\\20241222151240_primeira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\migrations\\20241222151126_add-migration agora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\migrations\\20241222151126_add-migration agora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\peditiscosapi\\peditiscosapi\\migrations\\20241226220230_nome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C1C0D0-2AA5-4BB3-BA87-8D3FB79181FB}|PediTiscosAPI\\PediTiscosAPI.csproj|solutionrelative:peditiscosapi\\migrations\\20241226220230_nome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 100,
+      "VerticalTabListWidth": 109,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,247 +62,129 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20241222200642_Pagamentos.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241222200642_Pagamentos.cs",
-              "RelativeDocumentMoniker": "PediTiscosAPI\\Migrations\\20241222200642_Pagamentos.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241222200642_Pagamentos.cs",
-              "RelativeToolTip": "PediTiscosAPI\\Migrations\\20241222200642_Pagamentos.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T20:06:42.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Pagamento.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Entities\\Pagamento.cs",
-              "RelativeDocumentMoniker": "PediTiscosAPI\\Entities\\Pagamento.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Entities\\Pagamento.cs",
-              "RelativeToolTip": "PediTiscosAPI\\Entities\\Pagamento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T19:58:00.658Z"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PagamentosController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Controllers\\PagamentosController.cs",
-              "RelativeDocumentMoniker": "PediTiscosAPI\\Controllers\\PagamentosController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Controllers\\PagamentosController.cs",
-              "RelativeToolTip": "PediTiscosAPI\\Controllers\\PagamentosController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA+wBcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T17:16:30.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "20241222152904_agora.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241222152904_agora.cs",
-              "RelativeDocumentMoniker": "PediTiscosAPI\\Migrations\\20241222152904_agora.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241222152904_agora.cs",
-              "RelativeToolTip": "PediTiscosAPI\\Migrations\\20241222152904_agora.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T15:29:05.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20241222152835_agoravai.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241222152835_agoravai.cs",
-              "RelativeDocumentMoniker": "PediTiscosAPI\\Migrations\\20241222152835_agoravai.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241222152835_agoravai.cs",
-              "RelativeToolTip": "PediTiscosAPI\\Migrations\\20241222152835_agoravai.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T15:28:35.272Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20241222152707_PedidosBDExemplo.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241222152707_PedidosBDExemplo.cs",
-              "RelativeDocumentMoniker": "PediTiscosAPI\\Migrations\\20241222152707_PedidosBDExemplo.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241222152707_PedidosBDExemplo.cs",
-              "RelativeToolTip": "PediTiscosAPI\\Migrations\\20241222152707_PedidosBDExemplo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T15:27:07.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "20241222152003_Work.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241222152003_Work.cs",
-              "RelativeDocumentMoniker": "PediTiscosAPI\\Migrations\\20241222152003_Work.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241222152003_Work.cs",
-              "RelativeToolTip": "PediTiscosAPI\\Migrations\\20241222152003_Work.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T15:20:03.869Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PedidosController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Controllers\\PedidosController.cs",
-              "RelativeDocumentMoniker": "PediTiscosAPI\\Controllers\\PedidosController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Controllers\\PedidosController.cs",
-              "RelativeToolTip": "PediTiscosAPI\\Controllers\\PedidosController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T15:15:52.273Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20241222151240_Primeira.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241222151240_Primeira.cs",
-              "RelativeDocumentMoniker": "PediTiscosAPI\\Migrations\\20241222151240_Primeira.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241222151240_Primeira.cs",
-              "RelativeToolTip": "PediTiscosAPI\\Migrations\\20241222151240_Primeira.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T15:12:40.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20241222151126_Add-Migration agora.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241222151126_Add-Migration agora.cs",
-              "RelativeDocumentMoniker": "PediTiscosAPI\\Migrations\\20241222151126_Add-Migration agora.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241222151126_Add-Migration agora.cs",
-              "RelativeToolTip": "PediTiscosAPI\\Migrations\\20241222151126_Add-Migration agora.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T15:11:26.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20241222151049_Denovo.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241222151049_Denovo.cs",
-              "RelativeDocumentMoniker": "PediTiscosAPI\\Migrations\\20241222151049_Denovo.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241222151049_Denovo.cs",
-              "RelativeToolTip": "PediTiscosAPI\\Migrations\\20241222151049_Denovo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T15:10:49.713Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PediTiscosAPI.http",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\PediTiscosAPI.http",
-              "RelativeDocumentMoniker": "PediTiscosAPI\\PediTiscosAPI.http",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\PediTiscosAPI.http",
-              "RelativeToolTip": "PediTiscosAPI\\PediTiscosAPI.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-12-22T15:07:32.71Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PediTiscosAPI",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\PediTiscosAPI.csproj",
-              "RelativeDocumentMoniker": "PediTiscosAPI\\PediTiscosAPI.csproj",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\PediTiscosAPI.csproj",
-              "RelativeToolTip": "PediTiscosAPI\\PediTiscosAPI.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-22T14:52:39.746Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProdutosController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Controllers\\ProdutosController.cs",
-              "RelativeDocumentMoniker": "PediTiscosAPI\\Controllers\\ProdutosController.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Controllers\\ProdutosController.cs",
-              "RelativeToolTip": "PediTiscosAPI\\Controllers\\ProdutosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T01:41:42.059Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Entities\\Pedido.cs",
-              "RelativeDocumentMoniker": "PediTiscosAPI\\Entities\\Pedido.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Entities\\Pedido.cs",
-              "RelativeToolTip": "PediTiscosAPI\\Entities\\Pedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T01:03:23.441Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Categorias.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Entities\\Categorias.cs",
-              "RelativeDocumentMoniker": "PediTiscosAPI\\Entities\\Categorias.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Entities\\Categorias.cs",
-              "RelativeToolTip": "PediTiscosAPI\\Entities\\Categorias.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T01:03:03.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Entities\\Produto.cs",
-              "RelativeDocumentMoniker": "PediTiscosAPI\\Entities\\Produto.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Entities\\Produto.cs",
-              "RelativeToolTip": "PediTiscosAPI\\Entities\\Produto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T01:02:26.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Program.cs",
               "RelativeDocumentMoniker": "PediTiscosAPI\\Program.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Program.cs",
               "RelativeToolTip": "PediTiscosAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAwwHcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T01:01:14.349Z"
+              "WhenOpened": "2024-12-26T22:21:17.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "PediTiscosAPI\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "PediTiscosAPI\\Controllers\\ProdutosController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwD0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T22:06:41.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20241226220334_First.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241226220334_First.cs",
+              "RelativeDocumentMoniker": "PediTiscosAPI\\Migrations\\20241226220334_First.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241226220334_First.cs",
+              "RelativeToolTip": "PediTiscosAPI\\Migrations\\20241226220334_First.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T22:03:34.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20241226220230_nome.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241226220230_nome.cs",
+              "RelativeDocumentMoniker": "PediTiscosAPI\\Migrations\\20241226220230_nome.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Migrations\\20241226220230_nome.cs",
+              "RelativeToolTip": "PediTiscosAPI\\Migrations\\20241226220230_nome.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T22:02:30.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Entities\\Produto.cs",
+              "RelativeDocumentMoniker": "PediTiscosAPI\\Entities\\Produto.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Entities\\Produto.cs",
+              "RelativeToolTip": "PediTiscosAPI\\Entities\\Produto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T22:01:36.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Utilizador.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Entities\\Utilizador.cs",
+              "RelativeDocumentMoniker": "PediTiscosAPI\\Entities\\Utilizador.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Entities\\Utilizador.cs",
+              "RelativeToolTip": "PediTiscosAPI\\Entities\\Utilizador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T22:01:35.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "PediTiscosAPI\\Entities\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "PediTiscosAPI\\Entities\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T01:47:03.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PediTiscosAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PediTiscosAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAuwHIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T01:47:03.157Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "PediTiscosAPI\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "PediTiscosAPI\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAwDYAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T01:00:18.105Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\appsettings.json",
               "RelativeDocumentMoniker": "PediTiscosAPI\\appsettings.json",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\appsettings.json",
               "RelativeToolTip": "PediTiscosAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-19T00:57:19.856Z"
+              "WhenOpened": "2024-12-24T01:47:03.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "PediTiscosAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "PediTiscosAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T01:47:03.185Z"
             }
           ]
         }

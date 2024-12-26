@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "RCLProdutos.1g2llw64rf.styles.css",
+      "AssetFile": "RCLProdutos.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11161"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X+uXOAKNKVCEceKkKSlSuDg9QkzvssepZhguv1qaYpI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 18:36:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1g2llw64rf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X+uXOAKNKVCEceKkKSlSuDg9QkzvssepZhguv1qaYpI="
+        },
+        {
+          "Name": "label",
+          "Value": "RCLProdutos.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "RCLProdutos.styles.css",
+      "AssetFile": "RCLProdutos.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11161"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X+uXOAKNKVCEceKkKSlSuDg9QkzvssepZhguv1qaYpI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 18:36:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X+uXOAKNKVCEceKkKSlSuDg9QkzvssepZhguv1qaYpI="
+        }
+      ]
+    }
+  ]
+}

@@ -1,18 +1,21 @@
 ﻿@page "/categorias"
 @using GestãoLoja.Entities
 @using Microsoft.EntityFrameworkCore
+@using Microsoft.AspNetCore.Authorization
 @inject Data.ApplicationDbContext DbContext
 @rendermode InteractiveServer
+
+@attribute [Authorize]
 
 <h3 class="titulo">Gestão de Categorias</h3>
 
 <div class="container">
     <!-- Tabela de Categorias -->
-    <table class="tabela">
+    <table class="tabela" id="categoriaTable">
         <thead>
             <tr>
-                <th>Id</th>
-                <th>Nome</th>
+                <th onclick="sortTable(0, 'categoriaTable')">Id</th>
+                <th onclick="sortTable(1, 'categoriaTable')">Nome</th>
                 <th>Ações</th>
             </tr>
         </thead>
@@ -41,7 +44,7 @@
             <h4>Editar Categoria</h4>
             <div class="campo">
                 <label for="nome">Nome:</label>
-                <input type="text" id="nome" @bind="CategoriaAtual.Nome" />
+                <input type="text" id="nome" @bind="CategoriaBackup.Nome" />
             </div>
             <div class="botoes">
                 <button class="btn salvar" @onclick="SalvarCategoria">Salvar</button>
@@ -52,8 +55,9 @@
 </div>
 
 @code {
-    private List<Categoria> ListaCategorias = new(); // Alterado o nome para ListaCategorias
+    private List<Categoria> ListaCategorias = new();
     private Categoria CategoriaAtual = new Categoria();
+    private Categoria CategoriaBackup = new Categoria(); // Cópia para edição
     private bool Editando = false;
 
     protected override async Task OnInitializedAsync()
@@ -64,13 +68,19 @@
 
     private void NovaCategoria()
     {
-        CategoriaAtual = new Categoria(); // Cria uma nova instância para nova categoria
+        CategoriaAtual = new Categoria();
+        CategoriaBackup = new Categoria(); // Nova cópia vazia
         Editando = true;
     }
 
     private void EditarCategoria(Categoria categoria)
     {
         CategoriaAtual = categoria;
+        CategoriaBackup = new Categoria // Cópia da categoria atual
+            {
+                Id = categoria.Id,
+                Nome = categoria.Nome
+            };
         Editando = true;
     }
 
@@ -88,9 +98,14 @@
     private async Task SalvarCategoria()
     {
         if (CategoriaAtual.Id == 0)
-            DbContext.Categorias.Add(CategoriaAtual);
+        {
+            DbContext.Categorias.Add(CategoriaBackup);
+        }
         else
+        {
+            CategoriaAtual.Nome = CategoriaBackup.Nome; // Atualiza somente ao salvar
             DbContext.Categorias.Update(CategoriaAtual);
+        }
 
         await DbContext.SaveChangesAsync();
         ListaCategorias = await DbContext.Categorias.ToListAsync(); // Recarrega a lista de categorias
@@ -99,7 +114,7 @@
 
     private void CancelarEdicao()
     {
-        CategoriaAtual = new Categoria(); // Reseta a categoria atual
+        CategoriaBackup = new Categoria();
         Editando = false;
     }
 }
@@ -128,16 +143,17 @@
         margin-bottom: 20px;
     }
 
-    .tabela th, .tabela td {
-        padding: 12px;
-        text-align: left;
-        border-bottom: 1px solid #ddd;
-    }
+        .tabela th, .tabela td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
 
-    .tabela th {
-        background-color: #007BFF;
-        color: white;
-    }
+        .tabela th {
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+        }
 
     /* Estilos dos botões */
     .btn {
@@ -148,31 +164,31 @@
         font-size: 14px;
     }
 
-    .btn.editar {
-        background-color: #28a745;
-        color: white;
-    }
+        .btn.editar {
+            background-color: #28a745;
+            color: white;
+        }
 
-    .btn.excluir {
-        background-color: #dc3545;
-        color: white;
-    }
+        .btn.excluir {
+            background-color: #dc3545;
+            color: white;
+        }
 
-    .btn.nova-categoria {
-        background-color: #007bff;
-        color: white;
-        margin-bottom: 20px;
-    }
+        .btn.nova-categoria {
+            background-color: #007bff;
+            color: white;
+            margin-bottom: 20px;
+        }
 
-    .btn.salvar {
-        background-color: #28a745;
-        color: white;
-    }
+        .btn.salvar {
+            background-color: #28a745;
+            color: white;
+        }
 
-    .btn.cancelar {
-        background-color: #6c757d;
-        color: white;
-    }
+        .btn.cancelar {
+            background-color: #6c757d;
+            color: white;
+        }
 
     /* Estilo do formulário de edição */
     .formulario-edicao {
@@ -182,30 +198,50 @@
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
-    .formulario-edicao h4 {
-        margin-bottom: 15px;
-        font-size: 22px;
-    }
+        .formulario-edicao h4 {
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
 
     .campo {
         margin-bottom: 15px;
     }
 
-    .campo label {
-        display: block;
-        margin-bottom: 5px;
-    }
+        .campo label {
+            display: block;
+            margin-bottom: 5px;
+        }
 
-    .campo input {
-        width: 100%;
-        padding: 8px;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        font-size: 14px;
-    }
+        .campo input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
 
     .botoes {
         margin-top: 15px;
     }
-
 </style>
+
+<script>
+    function sortTable(columnIndex, tableId) {
+        const table = document.getElementById(tableId);
+        const rows = Array.from(table.rows).slice(1);
+        const isAscending = table.getAttribute("data-sort-dir") === "asc";
+        const direction = isAscending ? -1 : 1;
+
+        rows.sort((rowA, rowB) => {
+            const cellA = rowA.cells[columnIndex].textContent.trim().toLowerCase();
+            const cellB = rowB.cells[columnIndex].textContent.trim().toLowerCase();
+
+            if (cellA < cellB) return -1 * direction;
+            if (cellA > cellB) return 1 * direction;
+            return 0;
+        });
+
+        table.tBodies[0].append(...rows);
+        table.setAttribute("data-sort-dir", isAscending ? "desc" : "asc");
+    }
+</script>

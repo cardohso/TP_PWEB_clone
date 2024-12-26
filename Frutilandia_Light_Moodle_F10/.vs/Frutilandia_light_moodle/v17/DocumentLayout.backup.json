@@ -1,0 +1,573 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclapi\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclapi\\services\\iapiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\services\\iapiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\produtosblazor\\components\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\produtosblazor\\components\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclapi\\dto\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\dto\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\produtosblazor\\components\\sliderprodutos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\sliderprodutos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclprodutos\\shared\\slider\\slidercomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\slider\\slidercomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclprodutos\\shared\\slider\\slidecomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\slider\\slidecomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclprodutos\\shared\\slider\\indicadorescomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\slider\\indicadorescomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclprodutos\\shared\\cardproduto\\slideprodutocomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B5D540-CE28-40C1-8F3B-350440F03D2D}|RCLProdutos\\RCLProdutos.csproj|solutionrelative:rclprodutos\\shared\\cardproduto\\slideprodutocomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclapi\\dto\\modoentrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\dto\\modoentrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\produtosblazor\\components\\slidercategoria.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\slidercategoria.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclapi\\dto\\imagemperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\dto\\imagemperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\produtosblazor\\components\\registeruser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\registeruser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\produtosblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\produtosblazor\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8658856-33D2-4DE6-A07E-D1B8CC440B65}|ProdutosBlazor\\ProdutosBlazor.csproj|solutionrelative:produtosblazor\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclapi\\dto\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\dto\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclapi\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclapi\\dto\\produtofavorito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\dto\\produtofavorito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclapi\\rclapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\rclapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclapi\\dto\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\dto\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclapi\\dto\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\dto\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclapi\\dto\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\dto\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclapi\\services\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\services\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclapi\\dto\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\dto\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclapi\\dto\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\dto\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclcomum\\shared\\btnregister.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|solutionrelative:rclcomum\\shared\\btnregister.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclapi\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A88A3C-25AD-44EA-AEF3-71A305D86C15}|RclAPI\\RCLAPI.csproj|solutionrelative:rclapi\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclcomum\\shared\\locationcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|solutionrelative:rclcomum\\shared\\locationcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclcomum\\shared\\headercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|solutionrelative:rclcomum\\shared\\headercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclcomum\\shared\\btnlogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|solutionrelative:rclcomum\\shared\\btnlogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclcomum\\shared\\btncarrinho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|solutionrelative:rclcomum\\shared\\btncarrinho.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\frutilandia_light_moodle_f10\\rclcomum\\shared\\navlogincomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C373D6FF-3F1A-4015-A0C2-66EFDEC75819}|RCLComum\\RCLComum.csproj|solutionrelative:rclcomum\\shared\\navlogincomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 240,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 21,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\Components\\Index.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\Index.razor",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\Components\\Index.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T22:14:00.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SliderComponent.razor.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLProdutos\\Shared\\Slider\\SliderComponent.razor.cs",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\Slider\\SliderComponent.razor.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLProdutos\\Shared\\Slider\\SliderComponent.razor.cs",
+              "RelativeToolTip": "RCLProdutos\\Shared\\Slider\\SliderComponent.razor.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAhwB4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T22:09:53.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IApiServices.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\Services\\IApiServices.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\Services\\IApiServices.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\Services\\IApiServices.cs",
+              "RelativeToolTip": "RCLAPI\\Services\\IApiServices.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA8wAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T22:09:25.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SlideComponent.razor.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLProdutos\\Shared\\Slider\\SlideComponent.razor.cs",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\Slider\\SlideComponent.razor.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLProdutos\\Shared\\Slider\\SlideComponent.razor.cs",
+              "RelativeToolTip": "RCLProdutos\\Shared\\Slider\\SlideComponent.razor.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAhwBgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T22:08:49.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IndicadoresComponent.razor.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLProdutos\\Shared\\Slider\\IndicadoresComponent.razor.cs",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\Slider\\IndicadoresComponent.razor.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLProdutos\\Shared\\Slider\\IndicadoresComponent.razor.cs",
+              "RelativeToolTip": "RCLProdutos\\Shared\\Slider\\IndicadoresComponent.razor.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T22:07:54.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SlideProdutoComponent.razor.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLProdutos\\Shared\\CardProduto\\SlideProdutoComponent.razor.cs",
+              "RelativeDocumentMoniker": "RCLProdutos\\Shared\\CardProduto\\SlideProdutoComponent.razor.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLProdutos\\Shared\\CardProduto\\SlideProdutoComponent.razor.cs",
+              "RelativeToolTip": "RCLProdutos\\Shared\\CardProduto\\SlideProdutoComponent.razor.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAhwAsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T22:07:49.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SliderProdutos.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\Components\\SliderProdutos.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\SliderProdutos.razor",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\Components\\SliderProdutos.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\SliderProdutos.razor",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAewH8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T21:52:21.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SliderCategoria.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\Components\\SliderCategoria.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\SliderCategoria.razor",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\Components\\SliderCategoria.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\SliderCategoria.razor",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAjwGsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T21:35:53.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\Components\\Routes.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T21:35:45.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\Program.cs",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\Program.cs",
+              "RelativeToolTip": "ProdutosBlazor\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwCwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T21:31:34.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\Services\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\Services\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\Services\\ApiResponse.cs",
+              "RelativeToolTip": "RCLAPI\\Services\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T21:23:21.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Utilizador.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\DTO\\Utilizador.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\DTO\\Utilizador.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\DTO\\Utilizador.cs",
+              "RelativeToolTip": "RCLAPI\\DTO\\Utilizador.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T18:43:02.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\DTO\\Register.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\DTO\\Register.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\DTO\\Register.cs",
+              "RelativeToolTip": "RCLAPI\\DTO\\Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T18:19:09.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ImagemPerfil.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\DTO\\ImagemPerfil.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\DTO\\ImagemPerfil.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\DTO\\ImagemPerfil.cs",
+              "RelativeToolTip": "RCLAPI\\DTO\\ImagemPerfil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T18:19:08.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\DTO\\Categoria.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\DTO\\Categoria.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\DTO\\Categoria.cs",
+              "RelativeToolTip": "RCLAPI\\DTO\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T18:19:07.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\DTO\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\DTO\\RegisterModel.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\DTO\\RegisterModel.cs",
+              "RelativeToolTip": "RCLAPI\\DTO\\RegisterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T18:10:47.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterUser.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\Components\\RegisterUser.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\RegisterUser.razor",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\Components\\RegisterUser.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\RegisterUser.razor",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAgwGMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T17:55:50.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RclAPI\\DTO\\Produto.cs",
+              "RelativeDocumentMoniker": "RclAPI\\DTO\\Produto.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RclAPI\\DTO\\Produto.cs",
+              "RelativeToolTip": "RclAPI\\DTO\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T17:51:23.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\Services\\ApiService.cs",
+              "RelativeToolTip": "RCLAPI\\Services\\ApiService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwEUAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T17:42:49.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Token.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\DTO\\Token.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\DTO\\Token.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\DTO\\Token.cs",
+              "RelativeToolTip": "RCLAPI\\DTO\\Token.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T17:17:08.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProdutoFavorito.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\DTO\\ProdutoFavorito.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\DTO\\ProdutoFavorito.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\DTO\\ProdutoFavorito.cs",
+              "RelativeToolTip": "RCLAPI\\DTO\\ProdutoFavorito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:50:42.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AppConfig.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\AppConfig.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\AppConfig.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\AppConfig.cs",
+              "RelativeToolTip": "RCLAPI\\AppConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:50:12.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ModoEntrega.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\DTO\\ModoEntrega.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\DTO\\ModoEntrega.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\DTO\\ModoEntrega.cs",
+              "RelativeToolTip": "RCLAPI\\DTO\\ModoEntrega.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:09:55.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\DTO\\LoginModel.cs",
+              "RelativeDocumentMoniker": "RCLAPI\\DTO\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\DTO\\LoginModel.cs",
+              "RelativeToolTip": "RCLAPI\\DTO\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:09:14.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RCLAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RclAPI\\RCLAPI.csproj",
+              "RelativeDocumentMoniker": "RclAPI\\RCLAPI.csproj",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RclAPI\\RCLAPI.csproj",
+              "RelativeToolTip": "RclAPI\\RCLAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-26T16:03:49.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\Components\\Login.razor",
+              "RelativeDocumentMoniker": "ProdutosBlazor\\Components\\Login.razor",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\Components\\Login.razor",
+              "RelativeToolTip": "ProdutosBlazor\\Components\\Login.razor",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T16:01:15.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\_Imports.razor",
+              "RelativeDocumentMoniker": "RCLAPI\\_Imports.razor",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLAPI\\_Imports.razor",
+              "RelativeToolTip": "RCLAPI\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T15:43:14.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BtnCarrinho.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\Shared\\BtnCarrinho.razor",
+              "RelativeDocumentMoniker": "RCLComum\\Shared\\BtnCarrinho.razor",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\Shared\\BtnCarrinho.razor",
+              "RelativeToolTip": "RCLComum\\Shared\\BtnCarrinho.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T15:24:02.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HeaderComponent.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\Shared\\HeaderComponent.razor",
+              "RelativeDocumentMoniker": "RCLComum\\Shared\\HeaderComponent.razor",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\Shared\\HeaderComponent.razor",
+              "RelativeToolTip": "RCLComum\\Shared\\HeaderComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T15:23:59.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LocationComponent.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\Shared\\LocationComponent.razor",
+              "RelativeDocumentMoniker": "RCLComum\\Shared\\LocationComponent.razor",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\Shared\\LocationComponent.razor",
+              "RelativeToolTip": "RCLComum\\Shared\\LocationComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T15:23:58.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "NavLoginComponent.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\Shared\\NavLoginComponent.razor",
+              "RelativeDocumentMoniker": "RCLComum\\Shared\\NavLoginComponent.razor",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\Shared\\NavLoginComponent.razor",
+              "RelativeToolTip": "RCLComum\\Shared\\NavLoginComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T15:19:18.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BtnLogin.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\Shared\\BtnLogin.razor",
+              "RelativeDocumentMoniker": "RCLComum\\Shared\\BtnLogin.razor",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\Shared\\BtnLogin.razor",
+              "RelativeToolTip": "RCLComum\\Shared\\BtnLogin.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T01:21:48.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BtnRegister.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\Shared\\BtnRegister.razor",
+              "RelativeDocumentMoniker": "RCLComum\\Shared\\BtnRegister.razor",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\Shared\\BtnRegister.razor",
+              "RelativeToolTip": "RCLComum\\Shared\\BtnRegister.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T01:21:47.495Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

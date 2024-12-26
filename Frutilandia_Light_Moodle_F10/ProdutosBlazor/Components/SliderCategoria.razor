@@ -1,0 +1,134 @@
+﻿@using RCLAPI.DTO
+@inject IApiServices apiService
+@using RCLProdutos.Services.Interfaces
+@inject ISliderUtilsServices sliderUtilsServices
+
+<div class="slider-wrapper">
+    <h3>Slider de Categorias</h3>
+
+    @if (categorias == null)
+    {
+        <p>Carregando categorias...</p>
+    }
+    else if (!categorias.Any())
+    {
+        <p>Nenhuma categoria encontrada.</p>
+    }
+    else
+    {
+        <div class="slider-container">
+            <!-- Container de slides que irá ser movido com a navegação -->
+            <div class="slides" style="transform: translateX(@(-sliderUtilsServices.Index * sliderUtilsServices.WidthSlide2)px);">
+                @foreach (var categoria in categorias)
+                {
+                    <div class="slide">
+                        <h4>@categoria.Nome</h4>
+                        <p>ID: @categoria.Id</p>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="slider-controls">
+            <button @onclick="PreviousSlide" class="btn btn-prev">Anterior</button>
+            <button @onclick="NextSlide" class="btn btn-next">Próximo</button>
+        </div>
+    }
+</div>
+
+<style>
+    .slider-wrapper {
+        text-align: center;
+        margin: 20px auto;
+        max-width: 600px; /* Define o tamanho máximo do slider */
+    }
+
+    .slider-container {
+        position: relative;
+        overflow: hidden; /* Oculta os slides fora do contêiner */
+        width: 100%;
+        height: 300px; /* Ajuste a altura do slide conforme necessário */
+        border: 1px solid #ccc;
+        border-radius: 8px;
+    }
+
+    .slides {
+        display: flex;
+        transition: transform 0.5s ease-in-out; /* Transição suave */
+        width: 100%; /* A largura total do container será o total de slides em sequência */
+    }
+
+    .slide {
+        flex: 0 0 100%; /* Cada slide ocupa 100% da largura do contêiner */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f9f9f9;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+        .slide h4 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        .slide p {
+            margin: 10px 0 0;
+            font-size: 1rem;
+            color: #666;
+        }
+
+    .slider-controls {
+        margin-top: 10px;
+    }
+
+    .btn {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        font-size: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 0 10px;
+    }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        .btn:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+</style>
+
+@code {
+    private List<Categoria>? categorias;
+
+    protected override async Task OnInitializedAsync()
+    {
+        categorias = await apiService.GetCategorias();
+        sliderUtilsServices.CountSlide = categorias?.Count ?? 0;
+        sliderUtilsServices.WidthSlide2 = 600; // Largura de cada slide
+
+        // Certifique-se de que o número de slides seja configurado corretamente.
+    }
+
+    private void NextSlide()
+    {
+        if (sliderUtilsServices.Index < sliderUtilsServices.CountSlide - 1)
+        {
+            sliderUtilsServices.Index++;
+        }
+    }
+
+    private void PreviousSlide()
+    {
+        if (sliderUtilsServices.Index > 0)
+        {
+            sliderUtilsServices.Index--;
+        }
+    }
+}

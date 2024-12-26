@@ -1,64 +1,44 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using PediTiscosAPI.Data;
-using PediTiscosAPI.Entities;
+﻿using PediTiscosAPI.Data;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
+using PediTiscosAPI.Repositories;
 
-namespace PediTiscosAPI.Controllers
+[ApiController]
+[Route("api/[controller]")]
+public class PagamentosController : ControllerBase
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class PagamentosController : ControllerBase
+    private readonly IPagamentoRepository _pagamentoRepository;
+
+    public PagamentosController(IPagamentoRepository pagamentoRepository)
     {
-        private readonly AppDbContext _context;
+        _pagamentoRepository = pagamentoRepository;
+    }
 
-        public PagamentosController(AppDbContext context)
+    // Somente usuários autenticados podem criar pagamentos
+    [HttpPost]
+    [Authorize]  // Adiciona a proteção de autenticação
+    public async Task<IActionResult> CriarPagamento([FromBody] CriarPagamentoRequest request)
+    {
+        try
         {
-            _context = context;
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> CriarPagamento([FromBody] Pagamento pagamento)
-        {
-            // Verificar se o pedido existe
-            var pedido = await _context.Pedidos.FindAsync(pagamento.PedidoId);
-            if (pedido == null)
-            {
-                return NotFound("Pedido não encontrado.");
-            }
-
-            pagamento.Status = "Pendente";
-            pagamento.Data = DateTime.Now;
-
-            _context.Pagamentos.Add(pagamento);
-            await _context.SaveChangesAsync();
-
+            var pagamento = await _pagamentoRepository.CriarPagamentoAsync(request);
             return CreatedAtAction(nameof(ObterPagamento), new { id = pagamento.Id }, pagamento);
         }
-
-        [HttpGet("{id}")]
-        public async Task<IActionResult> ObterPagamento(int id)
+        catch (Exception ex)
         {
-            var pagamento = await _context.Pagamentos.FindAsync(id);
-            if (pagamento == null)
-            {
-                return NotFound("Pagamento não encontrado.");
-            }
+            return BadRequest(ex.Message);
+        }
+    }
 
-            return Ok(pagamento);
+    [HttpGet("{id}")]
+    public async Task<IActionResult> ObterPagamento(int id)
+    {
+        var pagamento = await _pagamentoRepository.ObterPagamentoPorIdAsync(id);
+        if (pagamento == null)
+        {
+            return NotFound("Pagamento não encontrado.");
         }
 
-        [HttpPut("{id}/status")]
-        public async Task<IActionResult> AtualizarStatus(int id, [FromBody] string status)
-        {
-            var pagamento = await _context.Pagamentos.FindAsync(id);
-            if (pagamento == null)
-            {
-                return NotFound("Pagamento não encontrado.");
-            }
-
-            pagamento.Status = status;
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
+        return Ok(pagamento);
     }
 }

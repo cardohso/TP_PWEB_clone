@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PediTiscosAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+311ddab48f81f71da0dcd2dd874088b1127aceea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c4ef6a9a643ddd62611544c2f732a963f0e5c29")]
 [assembly: System.Reflection.AssemblyProductAttribute("PediTiscosAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PediTiscosAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
