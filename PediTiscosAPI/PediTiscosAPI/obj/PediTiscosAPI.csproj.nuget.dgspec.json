@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\PediTiscosAPI.csproj": {}
+    "C:\\Users\\jphsc\\Documents\\GitHub\\TP_PWEB_clone\\PediTiscosAPI\\PediTiscosAPI\\PediTiscosAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\PediTiscosAPI.csproj": {
+    "C:\\Users\\jphsc\\Documents\\GitHub\\TP_PWEB_clone\\PediTiscosAPI\\PediTiscosAPI\\PediTiscosAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\PediTiscosAPI.csproj",
+        "projectUniqueName": "C:\\Users\\jphsc\\Documents\\GitHub\\TP_PWEB_clone\\PediTiscosAPI\\PediTiscosAPI\\PediTiscosAPI.csproj",
         "projectName": "PediTiscosAPI",
-        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\PediTiscosAPI.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\PediTiscosAPI\\PediTiscosAPI\\obj\\",
+        "projectPath": "C:\\Users\\jphsc\\Documents\\GitHub\\TP_PWEB_clone\\PediTiscosAPI\\PediTiscosAPI\\PediTiscosAPI.csproj",
+        "packagesPath": "C:\\Users\\jphsc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jphsc\\Documents\\GitHub\\TP_PWEB_clone\\PediTiscosAPI\\PediTiscosAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jphsc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

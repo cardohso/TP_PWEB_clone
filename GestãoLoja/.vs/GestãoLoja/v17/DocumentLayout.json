@@ -1,46 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Gest\u00E3oLoja\\",
+  "WorkspaceRootPath": "C:\\Users\\jphsc\\Documents\\GitHub\\TP_PWEB_clone\\Gest\u00E3oLoja\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\gest\u00E3oloja\\gest\u00E3oloja\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\jphsc\\documents\\github\\tp_pweb_clone\\gest\u00E3oloja\\gest\u00E3oloja\\components\\pages\\users.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\components\\pages\\users.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\gest\u00E3oloja\\gest\u00E3oloja\\components\\pages\\produtosdisponiveis.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\components\\pages\\produtosdisponiveis.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\jphsc\\documents\\github\\tp_pweb_clone\\gest\u00E3oloja\\gest\u00E3oloja\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\gest\u00E3oloja\\gest\u00E3oloja\\components\\pages\\produtos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\jphsc\\documents\\github\\tp_pweb_clone\\gest\u00E3oloja\\gest\u00E3oloja\\components\\pages\\produtos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\components\\pages\\produtos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\gest\u00E3oloja\\gest\u00E3oloja\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\gest\u00E3oloja\\gest\u00E3oloja\\components\\pages\\vendas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\components\\pages\\vendas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\gest\u00E3oloja\\gest\u00E3oloja\\entities\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\entities\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\gest\u00E3oloja\\gest\u00E3oloja\\components\\pages\\pedidos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\components\\pages\\pedidos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\gest\u00E3oloja\\gest\u00E3oloja\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\gest\u00E3oloja\\gest\u00E3oloja\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\user\\documents\\github\\tp_pweb\\gest\u00E3oloja\\gest\u00E3oloja\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,140 +22,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 252,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "Gest\u00E3oLoja\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFQAAABKAAAAAAAAAA==",
+              "Title": "Users.razor",
+              "DocumentMoniker": "C:\\Users\\jphsc\\Documents\\GitHub\\TP_PWEB_clone\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Components\\Pages\\Users.razor",
+              "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Components\\Pages\\Users.razor",
+              "ToolTip": "C:\\Users\\jphsc\\Documents\\GitHub\\TP_PWEB_clone\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Components\\Pages\\Users.razor",
+              "RelativeToolTip": "Gest\u00E3oLoja\\Components\\Pages\\Users.razor",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAqwFoAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-26T21:24:11.235Z",
+              "WhenOpened": "2024-12-27T18:33:07.959Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProdutosDisponiveis.razor",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Components\\Pages\\ProdutosDisponiveis.razor",
-              "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Components\\Pages\\ProdutosDisponiveis.razor",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Components\\Pages\\ProdutosDisponiveis.razor",
-              "RelativeToolTip": "Gest\u00E3oLoja\\Components\\Pages\\ProdutosDisponiveis.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-26T21:13:39.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Gest\u00E3oLoja\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\jphsc\\Documents\\GitHub\\TP_PWEB_clone\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Entities\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\jphsc\\Documents\\GitHub\\TP_PWEB_clone\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "Gest\u00E3oLoja\\Entities\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T21:12:27.828Z"
+              "WhenOpened": "2024-12-27T19:32:13.058Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Produtos.razor",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Components\\Pages\\Produtos.razor",
+              "DocumentMoniker": "C:\\Users\\jphsc\\Documents\\GitHub\\TP_PWEB_clone\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Components\\Pages\\Produtos.razor",
               "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Components\\Pages\\Produtos.razor",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Components\\Pages\\Produtos.razor",
+              "ToolTip": "C:\\Users\\jphsc\\Documents\\GitHub\\TP_PWEB_clone\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Components\\Pages\\Produtos.razor",
               "RelativeToolTip": "Gest\u00E3oLoja\\Components\\Pages\\Produtos.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAANQAAAAAAAAAAAD4v+YAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-26T21:10:24.877Z"
+              "WhenOpened": "2024-12-26T21:10:24.877Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Venda.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Entities\\Venda.cs",
-              "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Entities\\Venda.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Entities\\Venda.cs",
-              "RelativeToolTip": "Gest\u00E3oLoja\\Entities\\Venda.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T19:18:36.274Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Vendas.razor",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Components\\Pages\\Vendas.razor",
-              "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Components\\Pages\\Vendas.razor",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Components\\Pages\\Vendas.razor",
-              "RelativeToolTip": "Gest\u00E3oLoja\\Components\\Pages\\Vendas.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-26T19:14:10.106Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Entities\\Categoria.cs",
-              "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Entities\\Categoria.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Entities\\Categoria.cs",
-              "RelativeToolTip": "Gest\u00E3oLoja\\Entities\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T19:18:17.537Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Entities\\Pedido.cs",
-              "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Entities\\Pedido.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Entities\\Pedido.cs",
-              "RelativeToolTip": "Gest\u00E3oLoja\\Entities\\Pedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T19:11:22.897Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Program.cs",
-              "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Program.cs",
-              "RelativeToolTip": "Gest\u00E3oLoja\\Program.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T19:05:32.225Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Pedidos.razor",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Components\\Pages\\Pedidos.razor",
-              "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Components\\Pages\\Pedidos.razor",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Components\\Pages\\Pedidos.razor",
-              "RelativeToolTip": "Gest\u00E3oLoja\\Components\\Pages\\Pedidos.razor",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAAAKcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-26T18:05:48.673Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
