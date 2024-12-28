@@ -32,6 +32,7 @@
                 <th onclick="sortTable(1)">Email</th>
                 <th onclick="sortTable(2)">Nome de Usuário</th>
                 <th onclick="sortTable(3)">Roles</th>
+                <th onclick="sortTable(4)">Lockout Enabled</th>
                 <th>Ações</th>
             </tr>
         </thead>
@@ -43,10 +44,13 @@
                     <td>@user.Email</td>
                     <td>@user.UserName</td>
                     <td>@string.Join(", ", user.Roles)</td>
+                    <td>@user.LockoutEnabled</td>
                     <td>
                         <button @onclick="() => EditUser(user)" disabled="@user.Roles.Contains("Gestor")">Edit</button>
                         <button @onclick="() => DeleteUser(user.Id)" disabled="@user.Roles.Contains("Gestor")">Delete</button>
-                        <button @onclick="() => DeactivateUser(user.Id)" disabled="@user.Roles.Contains("Gestor")">Deactivate</button>
+                        <button @onclick="() => ToggleUserLockout(user.Id, user.LockoutEnabled)">
+                            @(user.LockoutEnabled ? "Activate" : "Deactivate")
+                        </button>
                     </td>
                 </tr>
             }
@@ -115,7 +119,8 @@
                         Id = user.Id,
                         Email = user.Email,
                         UserName = user.UserName,
-                        Roles = roles.ToList()
+                        Roles = roles.ToList(),
+                        LockoutEnabled = user.LockoutEnabled
                     });
 
                 // Add roles to the RoleList (no duplicates)
@@ -237,28 +242,33 @@
     }
 
     // Method to deactivate a user
-    private async Task DeactivateUser(string userId)
+    private async Task ToggleUserLockout(string userId, bool isLockedOut)
     {
         var user = await UserManager.FindByIdAsync(userId);
         if (user != null)
         {
-            var roles = await UserManager.GetRolesAsync(user);
-            // Prevent deactivation if the user has an "Admin" role
-            if (!roles.Contains("Admin"))
+            user.LockoutEnabled = !isLockedOut;
+            if (!isLockedOut)
             {
-                user.LockoutEnabled = true;
                 user.LockoutEnd = DateTimeOffset.MaxValue;
-                var result = await UserManager.UpdateAsync(user);
-                if (result.Succeeded)
+            }
+            else
+            {
+                user.LockoutEnd = null;
+            }
+            var result = await UserManager.UpdateAsync(user);
+            if (result.Succeeded)
+            {
+                var userWithRoles = UserList.FirstOrDefault(u => u.Id == userId);
+                if (userWithRoles != null)
                 {
-                    // Optionally, update the UserList to reflect the deactivation
-                    StateHasChanged(); // Refresh the UI
+                    userWithRoles.LockoutEnabled = user.LockoutEnabled;
                 }
-                else
-                {
-                    // Handle deactivation failure (you can add error messages here)
-                    Console.WriteLine("Error deactivating user");
-                }
+                StateHasChanged(); // Refresh the UI
+            }
+            else
+            {
+                Console.WriteLine("Error updating user lockout status");
             }
         }
     }
@@ -276,6 +286,7 @@
         public string Localidade2 { get; set; } = string.Empty;
         public string Pais { get; set; } = string.Empty;
         public List<string> Roles { get; set; } = new();
+        public bool LockoutEnabled { get; set; }
     }
 }
 

@@ -31,9 +31,10 @@
                     <td>@user.UserName</td>
                     <td>@user.LockoutEnabled</td>
                     <td>
+                        <button @onclick="() => EditUser(user)">Edit</button>
                         <button @onclick="() => DeleteUser(user.Id)">Delete</button>
                         <button @onclick="() => ToggleUserLockout(user.Id, user.LockoutEnabled)">
-                            @(user.LockoutEnabled ? "Deactivate" : "Activate")
+                            @(user.LockoutEnabled ? "Activate" : "Deactivate")
                         </button>
                     </td>
                 </tr>
@@ -42,10 +43,54 @@
     </table>
 </div>
 
+@if (AEditarUser)
+{
+    <div class="formulario-edicao">
+        <!-- Exibe mensagem de erro se houver -->
+        @if (!string.IsNullOrWhiteSpace(MensagemErro))
+        {
+            <div class="mensagem-erro">@MensagemErro</div>
+        }
+
+        <div class="campo">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" @bind="UserAtual.Nome" />
+        </div>
+        <div class="campo">
+            <label for="apelido">Apelido:</label>
+            <input type="text" id="apelido" @bind="UserAtual.Apelido" />
+        </div>
+        <div class="campo">
+            <label for="nif">NIF:</label>
+            <input type="text" id="nif" @bind="UserAtual.NIF" />
+        </div>
+        <div class="campo">
+            <label for="localidade1">Localidade 1:</label>
+            <input type="text" id="localidade1" @bind="UserAtual.Localidade1" />
+        </div>
+        <div class="campo">
+            <label for="localidade2">Localidade 2:</label>
+            <input type="text" id="localidade2" @bind="UserAtual.Localidade2" />
+        </div>
+        <div class="campo">
+            <label for="pais">País:</label>
+            <input type="text" id="pais" @bind="UserAtual.Pais" />
+        </div>
+        <div class="botoes">
+            <button class="btn salvar" @onclick="SalvarUser">Salvar</button>
+            <button class="btn cancelar" @onclick="CancelarEdicaoUser">Cancelar</button>
+        </div>
+    </div>
+}
+
 @code {
     private List<UserWithRoles> UserList = new();
     private List<UserWithRoles> FilteredUserList = new();
     private List<string> RoleList = new(); // List to hold unique roles
+    private UserWithRoles UserAtual = new UserWithRoles();
+    private UserWithRoles UserOriginal = new UserWithRoles(); // Para armazenar o estado original
+    private bool AEditarUser = false;
+    private string MensagemErro = string.Empty; // Para armazenar mensagens de erro
 
     protected override async Task OnInitializedAsync()
     {
@@ -89,6 +134,87 @@
         {
             FilteredUserList = UserList.Where(u => u.Roles.Contains(selectedRole)).ToList();
         }
+    }
+
+    // Method to edit a user
+    private void EditUser(UserWithRoles user)
+    {
+        UserOriginal = new UserWithRoles
+            {
+                Id = user.Id,
+                Nome = user.Nome,
+                Apelido = user.Apelido,
+                NIF = user.NIF,
+                Localidade1 = user.Localidade1,
+                Localidade2 = user.Localidade2,
+                Pais = user.Pais
+            }; // Armazena o estado original
+
+        UserAtual = new UserWithRoles
+            {
+                Id = user.Id,
+                Nome = user.Nome,
+                Apelido = user.Apelido,
+                NIF = user.NIF,
+                Localidade1 = user.Localidade1,
+                Localidade2 = user.Localidade2,
+                Pais = user.Pais
+            }; // Cria uma cópia para edição
+
+        MensagemErro = string.Empty; // Limpa a mensagem de erro
+        AEditarUser = true;
+    }
+
+    private async Task SalvarUser()
+    {
+        try
+        {
+            var userExiste = await UserManager.FindByIdAsync(UserAtual.Id);
+            if (userExiste != null)
+            {
+                userExiste.Nome = UserAtual.Nome;
+                userExiste.Apelido = UserAtual.Apelido;
+                userExiste.NIF = UserAtual.NIF;
+                userExiste.Localidade1 = UserAtual.Localidade1;
+                userExiste.Localidade2 = UserAtual.Localidade2;
+                userExiste.Pais = UserAtual.Pais;
+
+                var result = await UserManager.UpdateAsync(userExiste);
+                if (result.Succeeded)
+                {
+                    var roles = await UserManager.GetRolesAsync(userExiste);
+                    UserAtual.Roles = roles.ToList();
+                    UserList = UserList.Select(u => u.Id == UserAtual.Id ? UserAtual : u).ToList();
+                    FilteredUserList = FilteredUserList.Select(u => u.Id == UserAtual.Id ? UserAtual : u).ToList();
+                    AEditarUser = false;
+                }
+                else
+                {
+                    MensagemErro = "Erro ao salvar user.";
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            MensagemErro = $"Erro ao salvar user: {ex.Message}";
+        }
+    }
+
+    private void CancelarEdicaoUser()
+    {
+        // Restaura o estado original do produto sem salvar alterações
+        UserAtual = new UserWithRoles
+            {
+                Id = UserOriginal.Id,
+                Nome = UserOriginal.Nome,
+                Apelido = UserOriginal.Apelido,
+                NIF = UserOriginal.NIF,
+                Localidade1 = UserOriginal.Localidade1,
+                Localidade2 = UserOriginal.Localidade2,
+                Pais = UserOriginal.Pais
+            };
+
+        AEditarUser = false; // Fecha o formulário de edição
     }
 
     // Method to delete a user
@@ -149,6 +275,12 @@
         public string Id { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
         public string UserName { get; set; } = string.Empty;
+        public string Nome { get; set; } = string.Empty;
+        public string Apelido { get; set; } = string.Empty;
+        public string NIF { get; set; } = string.Empty;
+        public string Localidade1 { get; set; } = string.Empty;
+        public string Localidade2 { get; set; } = string.Empty;
+        public string Pais { get; set; } = string.Empty;
         public List<string> Roles { get; set; } = new();
         public bool LockoutEnabled { get; set; }
     }
@@ -189,6 +321,37 @@
             color: white;
             cursor: pointer;
         }
+
+    .campo {
+        margin-bottom: 15px;
+    }
+
+        .campo label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .campo input, .campo select, .campo textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .campo textarea {
+            min-height: 100px;
+        }
+
+    .botoes {
+        margin-top: 15px;
+    }
+
+    .mensagem-erro {
+        color: red;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
 
     /* Style for the filter container */
     .filter-container {

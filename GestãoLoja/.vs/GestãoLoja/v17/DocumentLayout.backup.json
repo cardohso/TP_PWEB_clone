@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\components\\pages\\users.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\jphsc\\documents\\github\\tp_pweb_clone\\gest\u00E3oloja\\gest\u00E3oloja\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\jphsc\\documents\\github\\tp_pweb_clone\\gest\u00E3oloja\\gest\u00E3oloja\\components\\pages\\usersclientes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\components\\pages\\usersclientes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\jphsc\\documents\\github\\tp_pweb_clone\\gest\u00E3oloja\\gest\u00E3oloja\\components\\pages\\produtos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\components\\pages\\produtos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|c:\\users\\jphsc\\documents\\github\\tp_pweb_clone\\gest\u00E3oloja\\gest\u00E3oloja\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25866BE5-84DE-49C4-AF51-E3FF447D272D}|Gest\u00E3oLoja\\Gest\u00E3oLoja.csproj|solutionrelative:gest\u00E3oloja\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,7 +36,7 @@
               "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Components\\Pages\\Users.razor",
               "ToolTip": "C:\\Users\\jphsc\\Documents\\GitHub\\TP_PWEB_clone\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Components\\Pages\\Users.razor",
               "RelativeToolTip": "Gest\u00E3oLoja\\Components\\Pages\\Users.razor",
-              "ViewState": "AgIAAMsAAAAAAAAAAAAqwNkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAHYBAAAAAAAAAAAiwIcBAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-27T18:33:07.959Z",
               "IsPinned": true,
@@ -40,7 +44,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\jphsc\\Documents\\GitHub\\TP_PWEB_clone\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Entities\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Entities\\ApplicationUser.cs",
@@ -49,6 +53,20 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T19:32:13.058Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersClientes.razor",
+              "DocumentMoniker": "C:\\Users\\jphsc\\Documents\\GitHub\\TP_PWEB_clone\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Components\\Pages\\UsersClientes.razor",
+              "RelativeDocumentMoniker": "Gest\u00E3oLoja\\Components\\Pages\\UsersClientes.razor",
+              "ToolTip": "C:\\Users\\jphsc\\Documents\\GitHub\\TP_PWEB_clone\\Gest\u00E3oLoja\\Gest\u00E3oLoja\\Components\\Pages\\UsersClientes.razor",
+              "RelativeToolTip": "Gest\u00E3oLoja\\Components\\Pages\\UsersClientes.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T23:19:09.504Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
