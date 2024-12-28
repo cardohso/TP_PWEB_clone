@@ -13,5 +13,5 @@ public interface IApiServices
     public Task<List<ProdutoFavorito>> GetFavoritos(string utilizadorId);
     public Task<ApiResponse<bool>> RegistarUtilizador(Utilizador utilizador);
     public Task<ApiResponse<bool>> Login(LoginModel loginModel);
-
+    Task<ApiResponse<bool>> AdicionaItemNoCarrinho(ItemCarrinhoCompra itemCarrinho);
 }

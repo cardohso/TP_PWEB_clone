@@ -22,7 +22,7 @@ namespace PediTiscosAPI.Controllers
         [AllowAnonymous] // Qualquer pessoa pode acessar sem autenticação
         public async Task<IActionResult> ObterCategorias()
         {
-            var categorias = await _categoriaRepository.ObterTodasCategoriasAsync();
+            var categorias = await _categoriaRepository.GetCategoriasAsync();
             return Ok(categorias);
         }
 

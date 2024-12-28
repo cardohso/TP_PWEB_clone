@@ -24,7 +24,7 @@
 
             <div class="slide-description-top">
                 <div>
-                    <p class="font-valor2"><span class="font-valor2">@string.Concat(@produto!.Nome, "  ", @produto.Preco, " €/", @produto.modoentrega.Nome)</span></p>
+                    <p class="font-valor2"><span class="font-valor2">@string.Concat(@produto!.Nome, "  ", @produto.Preco, " €/", @produto.ModoEntregaId)</span></p>
                 </div>
             </div>
 
@@ -79,7 +79,7 @@
 
                             <div class="row justify-content-md-around" style="height: 30px;">
                                 <div class="col-md-10 ">
-                                    <p class="font-valor3">Preço por @produto.modoentrega.Nome: @produto.Preco</p>
+                                    <p class="font-valor3">Preço por @produto.ModoEntregaId: @produto.Preco</p>
 
                                 </div>
                             </div>
@@ -156,7 +156,7 @@
                             <div class="row justify-content-md-around" style="height: 50px;">
 
                                 <div class="col-md-8 ">
-                                    <p class="font-valor3">Preço por @produto.modoentrega.Nome: @produto.Preco</p>
+                                    <p class="font-valor3">Preço por @produto.ModoEntregaId: @produto.Preco</p>
                                 </div>
                             </div>
 
@@ -174,7 +174,7 @@
                                     @if (quantidade > 0)
                                     {
                                         <p>@limiteQtd</p>
-                                        <p>Total: @quantidade @produto.modoentrega.Nome x @produto.Preco €/@produto.modoentrega.Nome =  @total €</p>
+                                        <p>Total: @quantidade @produto.ModoEntregaId x @produto.Preco €/@produto.ModoEntregaId =  @total €</p>
                                     
 
                                          <BtnCategorias qtdTotal={@quantidade}/>

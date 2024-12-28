@@ -1,183 +1,183 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProdutosBlazor.bundle.scp.css",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProdutosBlazor.bundle.scp.css",
       "PackagePath": "staticwebassets\\ProdutosBlazor.1e7ei5qpqw.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\app.css",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\Selecticontransp120x50.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\Selecticontransp120x50.png",
       "PackagePath": "staticwebassets\\images\\Selecticontransp120x50.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\back.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\back.png",
       "PackagePath": "staticwebassets\\images\\back.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\backcaroussel.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\backcaroussel.png",
       "PackagePath": "staticwebassets\\images\\backcaroussel.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\backicon.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\backicon.png",
       "PackagePath": "staticwebassets\\images\\backicon.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\cart.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\cart.png",
       "PackagePath": "staticwebassets\\images\\cart.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\cartcheio.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\cartcheio.png",
       "PackagePath": "staticwebassets\\images\\cartcheio.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\exit.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\exit.png",
       "PackagePath": "staticwebassets\\images\\exit.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\favoriteheart.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\favoriteheart.png",
       "PackagePath": "staticwebassets\\images\\favoriteheart.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\favoritesicon.jpg",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\favoritesicon.jpg",
       "PackagePath": "staticwebassets\\images\\favoritesicon.jpg"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\favoritesicontransp.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\favoritesicontransp.png",
       "PackagePath": "staticwebassets\\images\\favoritesicontransp.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\headicon.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\headicon.png",
       "PackagePath": "staticwebassets\\images\\headicon.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\heart.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\heart.png",
       "PackagePath": "staticwebassets\\images\\heart.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\heartfilltransp.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\heartfilltransp.png",
       "PackagePath": "staticwebassets\\images\\heartfilltransp.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\icoaguardando.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\icoaguardando.png",
       "PackagePath": "staticwebassets\\images\\icoaguardando.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\icocancelado.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\icocancelado.png",
       "PackagePath": "staticwebassets\\images\\icocancelado.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\icocatalog.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\icocatalog.png",
       "PackagePath": "staticwebassets\\images\\icocatalog.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\icochecado.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\icochecado.png",
       "PackagePath": "staticwebassets\\images\\icochecado.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\icodelete.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\icodelete.png",
       "PackagePath": "staticwebassets\\images\\icodelete.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\icoedit.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\icoedit.png",
       "PackagePath": "staticwebassets\\images\\icoedit.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\icoementrega.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\icoementrega.png",
       "PackagePath": "staticwebassets\\images\\icoementrega.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\icoentrega.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\icoentrega.png",
       "PackagePath": "staticwebassets\\images\\icoentrega.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\iconovo.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\iconovo.png",
       "PackagePath": "staticwebassets\\images\\iconovo.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\iconsave.ico",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\iconsave.ico",
       "PackagePath": "staticwebassets\\images\\iconsave.ico"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\icoperfil.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\icoperfil.png",
       "PackagePath": "staticwebassets\\images\\icoperfil.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\icosair.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\icosair.png",
       "PackagePath": "staticwebassets\\images\\icosair.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\infoicon.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\infoicon.png",
       "PackagePath": "staticwebassets\\images\\infoicon.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\infoicontransp50x50.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\infoicontransp50x50.png",
       "PackagePath": "staticwebassets\\images\\infoicontransp50x50.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\location.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\location.png",
       "PackagePath": "staticwebassets\\images\\location.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\minus.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\minus.png",
       "PackagePath": "staticwebassets\\images\\minus.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\next.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\next.png",
       "PackagePath": "staticwebassets\\images\\next.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\nextcaroussel.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\nextcaroussel.png",
       "PackagePath": "staticwebassets\\images\\nextcaroussel.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\pesquisaricon50x50.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\pesquisaricon50x50.png",
       "PackagePath": "staticwebassets\\images\\pesquisaricon50x50.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\plus.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\plus.png",
       "PackagePath": "staticwebassets\\images\\plus.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\pngegg.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\pngegg.png",
       "PackagePath": "staticwebassets\\images\\pngegg.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\questionsanswers.jpg",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\questionsanswers.jpg",
       "PackagePath": "staticwebassets\\images\\questionsanswers.jpg"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\register.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\register.png",
       "PackagePath": "staticwebassets\\images\\register.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\saveicon.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\saveicon.png",
       "PackagePath": "staticwebassets\\images\\saveicon.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\searchredicon50x50.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\searchredicon50x50.png",
       "PackagePath": "staticwebassets\\images\\searchredicon50x50.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\triangulofrutaazul.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\triangulofrutaazul.png",
       "PackagePath": "staticwebassets\\images\\triangulofrutaazul.png"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\triangulofrutatrasnp.png",
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosBlazor\\wwwroot\\images\\triangulofrutatrasnp.png",
       "PackagePath": "staticwebassets\\images\\triangulofrutatrasnp.png"
     },
     {

@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "tGx9DqecdS3aQqDihgnlUW5DuJEEAtszbVVzfuDzFuY=",
+  "Hash": "bfqZtbBpATd7RQbWYkYr75LeW9GaFO/uWkgDszVeQj8=",
   "Source": "ProdutosMAUI",
   "BasePath": "/",
   "Mode": "Root",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RclAPI\\RCLAPI.csproj",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RclAPI\\RCLAPI.csproj",
       "Version": 2,
       "Source": "RCLAPI",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -18,7 +18,7 @@
       "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\RCLComum.csproj",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLComum\\RCLComum.csproj",
       "Version": 2,
       "Source": "RCLComum",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -29,7 +29,7 @@
       "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLProdutos\\RCLProdutos.csproj",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLProdutos\\RCLProdutos.csproj",
       "Version": 2,
       "Source": "RCLProdutos",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -44,17 +44,17 @@
     {
       "Name": "ProdutosMAUI\\wwwroot",
       "Source": "ProdutosMAUI",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\ProdutosMAUI.styles.css",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\ProdutosMAUI.styles.css",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\",
       "BasePath": "/",
       "RelativePath": "ProdutosMAUI#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -69,13 +69,13 @@
       "Integrity": "KYVc6F2QQ2QmaWWncPxa7PW3twaAKPtptFTE54n0ks8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\ProdutosMAUI.styles.css"
+      "OriginalItemSpec": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\ProdutosMAUI.styles.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\ProdutosMAUI.bundle.scp.css",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\ProdutosMAUI.bundle.scp.css",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\",
       "BasePath": "/",
       "RelativePath": "ProdutosMAUI#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "Integrity": "hz/kYCL3WqWdRDh49PveAFXQrO4UBEj0VL1acEhD8DU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\ProdutosMAUI.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\ProdutosMAUI.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\css\\app.css",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\css\\app.css",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -114,10 +114,10 @@
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -135,10 +135,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -156,10 +156,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\favicon.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -177,10 +177,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\back.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\back.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/back#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -198,10 +198,10 @@
       "OriginalItemSpec": "wwwroot\\images\\back.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\backcaroussel.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\backcaroussel.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/backcaroussel#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -219,10 +219,10 @@
       "OriginalItemSpec": "wwwroot\\images\\backcaroussel.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\cart.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\cart.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/cart#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -240,10 +240,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cart.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\cartcheio.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\cartcheio.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/cartcheio#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -261,10 +261,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cartcheio.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\exit.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\exit.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/exit#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -282,10 +282,10 @@
       "OriginalItemSpec": "wwwroot\\images\\exit.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\favoriteheart.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\favoriteheart.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/favoriteheart#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -303,10 +303,10 @@
       "OriginalItemSpec": "wwwroot\\images\\favoriteheart.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\favoritesicon.jpg",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\favoritesicon.jpg",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/favoritesicon#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -324,10 +324,10 @@
       "OriginalItemSpec": "wwwroot\\images\\favoritesicon.jpg"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\favoritesicontransp.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\favoritesicontransp.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/favoritesicontransp#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -345,10 +345,10 @@
       "OriginalItemSpec": "wwwroot\\images\\favoritesicontransp.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\heart.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\heart.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/heart#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -366,10 +366,10 @@
       "OriginalItemSpec": "wwwroot\\images\\heart.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\heartfill.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\heartfill.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/heartfill#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -387,10 +387,10 @@
       "OriginalItemSpec": "wwwroot\\images\\heartfill.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\heartfilltransp.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\heartfilltransp.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/heartfilltransp#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\images\\heartfilltransp.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoaguardando.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoaguardando.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/icoaguardando#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -429,10 +429,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icoaguardando.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icocancelado.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icocancelado.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/icocancelado#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -450,10 +450,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icocancelado.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icocatalog.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icocatalog.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/icocatalog#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -471,10 +471,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icocatalog.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icochecado.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icochecado.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/icochecado#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icochecado.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icodelete.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icodelete.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/icodelete#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -513,10 +513,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icodelete.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoedit.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoedit.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/icoedit#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -534,10 +534,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icoedit.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoementrega.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoementrega.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/icoementrega#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -555,10 +555,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icoementrega.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoentrega.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoentrega.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/icoentrega#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -576,10 +576,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icoentrega.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\iconovo.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\iconovo.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/iconovo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -597,10 +597,10 @@
       "OriginalItemSpec": "wwwroot\\images\\iconovo.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\iconsave.ico",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\iconsave.ico",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/iconsave#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -618,10 +618,10 @@
       "OriginalItemSpec": "wwwroot\\images\\iconsave.ico"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoperfil.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoperfil.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/icoperfil#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -639,10 +639,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icoperfil.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icosair.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icosair.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/icosair#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -660,10 +660,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icosair.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\infoicon.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\infoicon.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/infoicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -681,10 +681,10 @@
       "OriginalItemSpec": "wwwroot\\images\\infoicon.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\infoicontransp50x50.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\infoicontransp50x50.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/infoicontransp50x50#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -702,10 +702,10 @@
       "OriginalItemSpec": "wwwroot\\images\\infoicontransp50x50.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\location.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\location.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/location#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -723,10 +723,10 @@
       "OriginalItemSpec": "wwwroot\\images\\location.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\minus.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\minus.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/minus#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -744,10 +744,10 @@
       "OriginalItemSpec": "wwwroot\\images\\minus.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\next.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\next.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/next#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\images\\next.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\nextcaroussel.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\nextcaroussel.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/nextcaroussel#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -786,10 +786,10 @@
       "OriginalItemSpec": "wwwroot\\images\\nextcaroussel.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\pesquisaricon50x50.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\pesquisaricon50x50.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/pesquisaricon50x50#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -807,10 +807,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pesquisaricon50x50.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\plus.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\plus.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/plus#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -828,10 +828,10 @@
       "OriginalItemSpec": "wwwroot\\images\\plus.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\questionsanswers.jpg",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\questionsanswers.jpg",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/questionsanswers#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -849,10 +849,10 @@
       "OriginalItemSpec": "wwwroot\\images\\questionsanswers.jpg"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\register.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\register.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/register#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -870,10 +870,10 @@
       "OriginalItemSpec": "wwwroot\\images\\register.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\sacofrutas.jpg",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\sacofrutas.jpg",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/sacofrutas#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sacofrutas.jpg"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\searchredicon50x50.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\searchredicon50x50.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/searchredicon50x50#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -912,10 +912,10 @@
       "OriginalItemSpec": "wwwroot\\images\\searchredicon50x50.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\Selecticontransp120x50.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\Selecticontransp120x50.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/Selecticontransp120x50#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -933,10 +933,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Selecticontransp120x50.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\triangulofrutaamarelo.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\triangulofrutaamarelo.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/triangulofrutaamarelo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -954,10 +954,10 @@
       "OriginalItemSpec": "wwwroot\\images\\triangulofrutaamarelo.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\triangulofrutaazul.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\triangulofrutaazul.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/triangulofrutaazul#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -975,10 +975,10 @@
       "OriginalItemSpec": "wwwroot\\images\\triangulofrutaazul.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\triangulofrutatranspa.png",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\triangulofrutatranspa.png",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/triangulofrutatranspa#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -996,10 +996,10 @@
       "OriginalItemSpec": "wwwroot\\images\\triangulofrutatranspa.png"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\index.html",
       "SourceId": "ProdutosMAUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -1017,10 +1017,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLComum.bundle.scp.css",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLComum.bundle.scp.css",
       "SourceId": "RCLComum",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/RCLComum",
       "RelativePath": "RCLComum#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -1035,13 +1035,13 @@
       "Integrity": "Y9OegZMJmF35zEVIFkUapwkI3a31LYcaCALM/kwK9uc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLComum.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLComum.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLProdutos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLProdutos.bundle.scp.css",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLProdutos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLProdutos.bundle.scp.css",
       "SourceId": "RCLProdutos",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLProdutos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLProdutos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/RCLProdutos",
       "RelativePath": "RCLProdutos#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -1056,13 +1056,13 @@
       "Integrity": "X+uXOAKNKVCEceKkKSlSuDg9QkzvssepZhguv1qaYpI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLProdutos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLProdutos.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLProdutos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLProdutos.bundle.scp.css"
     }
   ],
   "Endpoints": [
     {
       "Route": "_content/RCLComum/RCLComum.bundle.scp.css",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLComum.bundle.scp.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLComum.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1087,7 +1087,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:36:10 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         }
       ],
       "EndpointProperties": [
@@ -1099,7 +1099,7 @@
     },
     {
       "Route": "_content/RCLComum/RCLComum.hf7k6hm7l4.bundle.scp.css",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLComum.bundle.scp.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLComum.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1124,7 +1124,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:36:10 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         }
       ],
       "EndpointProperties": [
@@ -1144,7 +1144,7 @@
     },
     {
       "Route": "_content/RCLProdutos/RCLProdutos.1g2llw64rf.bundle.scp.css",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLProdutos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLProdutos.bundle.scp.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLProdutos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLProdutos.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1169,7 +1169,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 18:36:13 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         }
       ],
       "EndpointProperties": [
@@ -1189,7 +1189,7 @@
     },
     {
       "Route": "_content/RCLProdutos/RCLProdutos.bundle.scp.css",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLProdutos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLProdutos.bundle.scp.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLProdutos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLProdutos.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1214,7 +1214,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 18:36:13 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         }
       ],
       "EndpointProperties": [
@@ -1226,7 +1226,7 @@
     },
     {
       "Route": "css/app.css",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\css\\app.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1247,7 +1247,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1263,7 +1263,7 @@
     },
     {
       "Route": "css/app.dex3usdpik.css",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\css\\app.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1284,7 +1284,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1308,7 +1308,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1329,7 +1329,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1353,7 +1353,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1374,7 +1374,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1390,7 +1390,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1411,7 +1411,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1435,7 +1435,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1456,7 +1456,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1472,7 +1472,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1493,7 +1493,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1517,7 +1517,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1538,7 +1538,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1554,7 +1554,7 @@
     },
     {
       "Route": "images/back.l813dong2o.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\back.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\back.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1575,7 +1575,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1599,7 +1599,7 @@
     },
     {
       "Route": "images/back.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\back.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\back.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1620,7 +1620,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1636,7 +1636,7 @@
     },
     {
       "Route": "images/backcaroussel.f0m6l3b81i.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\backcaroussel.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\backcaroussel.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1657,7 +1657,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1681,7 +1681,7 @@
     },
     {
       "Route": "images/backcaroussel.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\backcaroussel.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\backcaroussel.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1702,7 +1702,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1718,7 +1718,7 @@
     },
     {
       "Route": "images/cart.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\cart.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\cart.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1739,7 +1739,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1755,7 +1755,7 @@
     },
     {
       "Route": "images/cart.ynr2ijtd7o.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\cart.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\cart.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1776,7 +1776,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1800,7 +1800,7 @@
     },
     {
       "Route": "images/cartcheio.ed13z3updi.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\cartcheio.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\cartcheio.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1821,7 +1821,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1845,7 +1845,7 @@
     },
     {
       "Route": "images/cartcheio.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\cartcheio.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\cartcheio.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1866,7 +1866,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1882,7 +1882,7 @@
     },
     {
       "Route": "images/exit.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\exit.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\exit.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1903,7 +1903,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1919,7 +1919,7 @@
     },
     {
       "Route": "images/exit.upbqphund0.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\exit.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\exit.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1940,7 +1940,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1964,7 +1964,7 @@
     },
     {
       "Route": "images/favoriteheart.c8apvhu94q.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\favoriteheart.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\favoriteheart.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1985,7 +1985,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2009,7 +2009,7 @@
     },
     {
       "Route": "images/favoriteheart.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\favoriteheart.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\favoriteheart.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2030,7 +2030,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2046,7 +2046,7 @@
     },
     {
       "Route": "images/favoritesicon.jpg",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\favoritesicon.jpg",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\favoritesicon.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2067,7 +2067,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2083,7 +2083,7 @@
     },
     {
       "Route": "images/favoritesicon.x9zejxsr6v.jpg",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\favoritesicon.jpg",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\favoritesicon.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2104,7 +2104,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2128,7 +2128,7 @@
     },
     {
       "Route": "images/favoritesicontransp.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\favoritesicontransp.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\favoritesicontransp.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2149,7 +2149,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2165,7 +2165,7 @@
     },
     {
       "Route": "images/favoritesicontransp.xitee9ty9f.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\favoritesicontransp.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\favoritesicontransp.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2186,7 +2186,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2210,7 +2210,7 @@
     },
     {
       "Route": "images/heart.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\heart.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\heart.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2231,7 +2231,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2247,7 +2247,7 @@
     },
     {
       "Route": "images/heart.xzkm16f9qt.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\heart.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\heart.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2268,7 +2268,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2292,7 +2292,7 @@
     },
     {
       "Route": "images/heartfill.i1s79se7mg.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\heartfill.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\heartfill.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2313,7 +2313,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2337,7 +2337,7 @@
     },
     {
       "Route": "images/heartfill.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\heartfill.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\heartfill.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2358,7 +2358,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2374,7 +2374,7 @@
     },
     {
       "Route": "images/heartfilltransp.162raysr2x.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\heartfilltransp.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\heartfilltransp.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2395,7 +2395,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2419,7 +2419,7 @@
     },
     {
       "Route": "images/heartfilltransp.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\heartfilltransp.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\heartfilltransp.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2440,7 +2440,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2456,7 +2456,7 @@
     },
     {
       "Route": "images/icoaguardando.kf33ifjonm.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoaguardando.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoaguardando.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2477,7 +2477,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2501,7 +2501,7 @@
     },
     {
       "Route": "images/icoaguardando.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoaguardando.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoaguardando.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2522,7 +2522,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2538,7 +2538,7 @@
     },
     {
       "Route": "images/icocancelado.d5oz8ijtkp.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icocancelado.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icocancelado.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2559,7 +2559,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2583,7 +2583,7 @@
     },
     {
       "Route": "images/icocancelado.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icocancelado.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icocancelado.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2604,7 +2604,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2620,7 +2620,7 @@
     },
     {
       "Route": "images/icocatalog.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icocatalog.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icocatalog.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2641,7 +2641,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2657,7 +2657,7 @@
     },
     {
       "Route": "images/icocatalog.xebhnrvrpc.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icocatalog.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icocatalog.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2678,7 +2678,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2702,7 +2702,7 @@
     },
     {
       "Route": "images/icochecado.f5f8njedga.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icochecado.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icochecado.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2723,7 +2723,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2747,7 +2747,7 @@
     },
     {
       "Route": "images/icochecado.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icochecado.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icochecado.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2768,7 +2768,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2784,7 +2784,7 @@
     },
     {
       "Route": "images/icodelete.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icodelete.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icodelete.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2805,7 +2805,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2821,7 +2821,7 @@
     },
     {
       "Route": "images/icodelete.qnf47z0m85.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icodelete.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icodelete.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2842,7 +2842,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2866,7 +2866,7 @@
     },
     {
       "Route": "images/icoedit.7rqz9kf8hy.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoedit.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoedit.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2887,7 +2887,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2911,7 +2911,7 @@
     },
     {
       "Route": "images/icoedit.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoedit.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoedit.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2932,7 +2932,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2948,7 +2948,7 @@
     },
     {
       "Route": "images/icoementrega.5d7doyigig.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoementrega.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoementrega.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2969,7 +2969,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2993,7 +2993,7 @@
     },
     {
       "Route": "images/icoementrega.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoementrega.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoementrega.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3014,7 +3014,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3030,7 +3030,7 @@
     },
     {
       "Route": "images/icoentrega.7g34zgryz3.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoentrega.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoentrega.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3051,7 +3051,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3075,7 +3075,7 @@
     },
     {
       "Route": "images/icoentrega.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoentrega.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoentrega.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3096,7 +3096,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3112,7 +3112,7 @@
     },
     {
       "Route": "images/iconovo.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\iconovo.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\iconovo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3133,7 +3133,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3149,7 +3149,7 @@
     },
     {
       "Route": "images/iconovo.qwxqwjuqbk.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\iconovo.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\iconovo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3170,7 +3170,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3194,7 +3194,7 @@
     },
     {
       "Route": "images/iconsave.dqlekee1ey.ico",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\iconsave.ico",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\iconsave.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3215,7 +3215,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3239,7 +3239,7 @@
     },
     {
       "Route": "images/iconsave.ico",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\iconsave.ico",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\iconsave.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3260,7 +3260,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3276,7 +3276,7 @@
     },
     {
       "Route": "images/icoperfil.42xhp5woec.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoperfil.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoperfil.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3297,7 +3297,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3321,7 +3321,7 @@
     },
     {
       "Route": "images/icoperfil.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoperfil.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icoperfil.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3342,7 +3342,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3358,7 +3358,7 @@
     },
     {
       "Route": "images/icosair.bhdtuu6q49.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icosair.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icosair.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3379,7 +3379,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3403,7 +3403,7 @@
     },
     {
       "Route": "images/icosair.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icosair.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\icosair.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3424,7 +3424,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3440,7 +3440,7 @@
     },
     {
       "Route": "images/infoicon.j7bup9bljq.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\infoicon.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\infoicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3461,7 +3461,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3485,7 +3485,7 @@
     },
     {
       "Route": "images/infoicon.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\infoicon.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\infoicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3506,7 +3506,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3522,7 +3522,7 @@
     },
     {
       "Route": "images/infoicontransp50x50.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\infoicontransp50x50.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\infoicontransp50x50.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3543,7 +3543,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3559,7 +3559,7 @@
     },
     {
       "Route": "images/infoicontransp50x50.uqc7sxx368.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\infoicontransp50x50.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\infoicontransp50x50.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3580,7 +3580,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3604,7 +3604,7 @@
     },
     {
       "Route": "images/location.gnx3benr6q.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\location.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\location.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3625,7 +3625,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3649,7 +3649,7 @@
     },
     {
       "Route": "images/location.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\location.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\location.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3670,7 +3670,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3686,7 +3686,7 @@
     },
     {
       "Route": "images/minus.i7ccdqu078.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\minus.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\minus.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3707,7 +3707,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3731,7 +3731,7 @@
     },
     {
       "Route": "images/minus.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\minus.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\minus.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3752,7 +3752,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3768,7 +3768,7 @@
     },
     {
       "Route": "images/next.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\next.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\next.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3789,7 +3789,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3805,7 +3805,7 @@
     },
     {
       "Route": "images/next.xt02y5hfkv.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\next.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\next.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3826,7 +3826,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3850,7 +3850,7 @@
     },
     {
       "Route": "images/nextcaroussel.o5e9644asp.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\nextcaroussel.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\nextcaroussel.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3871,7 +3871,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3895,7 +3895,7 @@
     },
     {
       "Route": "images/nextcaroussel.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\nextcaroussel.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\nextcaroussel.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3916,7 +3916,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3932,7 +3932,7 @@
     },
     {
       "Route": "images/pesquisaricon50x50.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\pesquisaricon50x50.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\pesquisaricon50x50.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3953,7 +3953,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3969,7 +3969,7 @@
     },
     {
       "Route": "images/pesquisaricon50x50.vbs4o18e33.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\pesquisaricon50x50.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\pesquisaricon50x50.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3990,7 +3990,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4014,7 +4014,7 @@
     },
     {
       "Route": "images/plus.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\plus.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\plus.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4035,7 +4035,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4051,7 +4051,7 @@
     },
     {
       "Route": "images/plus.qpk49lj2em.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\plus.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\plus.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4072,7 +4072,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4096,7 +4096,7 @@
     },
     {
       "Route": "images/questionsanswers.5ydnr61awr.jpg",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\questionsanswers.jpg",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\questionsanswers.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4117,7 +4117,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4141,7 +4141,7 @@
     },
     {
       "Route": "images/questionsanswers.jpg",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\questionsanswers.jpg",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\questionsanswers.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4162,7 +4162,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4178,7 +4178,7 @@
     },
     {
       "Route": "images/register.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\register.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\register.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4199,7 +4199,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4215,7 +4215,7 @@
     },
     {
       "Route": "images/register.z3aidllgpm.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\register.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\register.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4236,7 +4236,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4260,7 +4260,7 @@
     },
     {
       "Route": "images/sacofrutas.jpg",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\sacofrutas.jpg",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\sacofrutas.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4281,7 +4281,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4297,7 +4297,7 @@
     },
     {
       "Route": "images/sacofrutas.xheu5u88nd.jpg",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\sacofrutas.jpg",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\sacofrutas.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4318,7 +4318,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4342,7 +4342,7 @@
     },
     {
       "Route": "images/searchredicon50x50.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\searchredicon50x50.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\searchredicon50x50.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4363,7 +4363,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4379,7 +4379,7 @@
     },
     {
       "Route": "images/searchredicon50x50.yxqkj3eygf.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\searchredicon50x50.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\searchredicon50x50.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4400,7 +4400,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4424,7 +4424,7 @@
     },
     {
       "Route": "images/Selecticontransp120x50.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\Selecticontransp120x50.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\Selecticontransp120x50.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4445,7 +4445,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4461,7 +4461,7 @@
     },
     {
       "Route": "images/Selecticontransp120x50.vjv32dwloq.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\Selecticontransp120x50.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\Selecticontransp120x50.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4482,7 +4482,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4506,7 +4506,7 @@
     },
     {
       "Route": "images/triangulofrutaamarelo.04jrc0t28e.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\triangulofrutaamarelo.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\triangulofrutaamarelo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4527,7 +4527,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4551,7 +4551,7 @@
     },
     {
       "Route": "images/triangulofrutaamarelo.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\triangulofrutaamarelo.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\triangulofrutaamarelo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4572,7 +4572,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4588,7 +4588,7 @@
     },
     {
       "Route": "images/triangulofrutaazul.jzas2n7iyc.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\triangulofrutaazul.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\triangulofrutaazul.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4609,7 +4609,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4633,7 +4633,7 @@
     },
     {
       "Route": "images/triangulofrutaazul.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\triangulofrutaazul.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\triangulofrutaazul.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4654,7 +4654,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4670,7 +4670,7 @@
     },
     {
       "Route": "images/triangulofrutatranspa.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\triangulofrutatranspa.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\triangulofrutatranspa.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4691,7 +4691,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4707,7 +4707,7 @@
     },
     {
       "Route": "images/triangulofrutatranspa.z8ydziq9k0.png",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\triangulofrutatranspa.png",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\images\\triangulofrutatranspa.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4728,7 +4728,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:23 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4752,7 +4752,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\index.html",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4773,7 +4773,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4789,7 +4789,7 @@
     },
     {
       "Route": "index.nwoxhf3oux.html",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\index.html",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4810,7 +4810,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:04:22 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4834,7 +4834,7 @@
     },
     {
       "Route": "ProdutosMAUI.bundle.scp.css",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\ProdutosMAUI.bundle.scp.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\ProdutosMAUI.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4855,7 +4855,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 19:16:46 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4871,7 +4871,7 @@
     },
     {
       "Route": "ProdutosMAUI.dv1gv1ftwn.bundle.scp.css",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\ProdutosMAUI.bundle.scp.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\ProdutosMAUI.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4892,7 +4892,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 19:16:46 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4916,7 +4916,7 @@
     },
     {
       "Route": "ProdutosMAUI.pk40eg2t4v.styles.css",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\ProdutosMAUI.styles.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\ProdutosMAUI.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4941,7 +4941,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 19:16:46 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Link",
@@ -4965,7 +4965,7 @@
     },
     {
       "Route": "ProdutosMAUI.styles.css",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\ProdutosMAUI.styles.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\ProdutosMAUI\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\ProdutosMAUI.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4990,7 +4990,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 19:16:46 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Link",

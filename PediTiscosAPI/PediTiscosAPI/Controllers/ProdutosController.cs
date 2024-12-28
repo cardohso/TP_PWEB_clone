@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using PediTiscosAPI.Entities;
 using PediTiscosAPI.Repositories;
+using System.Net;
 
 namespace PediTiscosAPI.Controllers
 {
@@ -25,6 +26,42 @@ namespace PediTiscosAPI.Controllers
             var produtos = await _produtoRepository.ObterTodosProdutosAsync();
             return Ok(produtos);
         }
+
+        // GET: api/Produtos/Especificos
+        [HttpGet("categoriaId/{categoriaId}")]
+        [AllowAnonymous] // Qualquer pessoa pode acessar sem autenticação
+        public async Task<IActionResult> ObterProdutosDisponiveisPorCategoriaAsync([FromRoute] int categoriaId)
+        {
+            try
+            {
+                // Valida se o categoriaId foi fornecido
+                if (categoriaId <= 0)
+                {
+                    return BadRequest("O ID da categoria é obrigatório e deve ser maior que 0.");
+                }
+
+                var produtos = await _produtoRepository.ObterProdutosDisponiveisPorCategoriaAsync(categoriaId);
+
+                // Verifica se nenhum produto foi encontrado
+                if (produtos == null || !produtos.Any())
+                {
+                    return NotFound("Nenhum produto encontrado para a categoria especificada.");
+                }
+
+                // Retorna a lista de produtos encontrados
+                return Ok(produtos);
+            }
+            catch (Exception ex)
+            {
+                // Em caso de erro, retorna uma resposta com status de erro interno
+                Console.WriteLine(ex.Message);
+                return StatusCode((int)HttpStatusCode.InternalServerError, "Erro ao recuperar os produtos da categoria.");
+            }
+        }
+
+
+
+
 
         // PUT: api/Produtos/{id}
         [HttpPut("{id}")]

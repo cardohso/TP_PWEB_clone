@@ -32,12 +32,8 @@ namespace PediTiscosAPI.Entities
         public decimal EmStock { get; set; }
         public bool Disponivel { get; set; }
 
-        [JsonIgnore]
         public int? ModoEntregaId { get; set; }
-        public ModoEntrega modoentrega { get; set; }
-        [JsonIgnore]
         public int CategoriaId { get; set; }
-        public Categoria categoria { get; set; }
 
         public byte[]? Imagem { get; set; }
 
@@ -47,6 +43,10 @@ namespace PediTiscosAPI.Entities
         [JsonIgnore]
         [NotMapped]
         public bool Favorito { get; set; }
+        public Categoria categoria { get; set; }
+        public ModoEntrega modoentrega { get; set; }
+
+
     }
 
 }

@@ -32,15 +32,13 @@ public class Produto
     public bool MaisVendido { get; set; }
     public decimal EmStock { get; set; }
     public bool Disponivel { get; set; }
-
-    [JsonIgnore]
-    public int? ModoEntregaId { get; set; }
-    public ModoEntrega modoentrega { get; set; }
-    [JsonIgnore]
-    public int CategoriaId { get; set; }
-    public Categoria categoria { get; set; }
-
     public byte[]? Imagem { get; set; }
+    public int? ModoEntregaId { get; set; }
+    public int CategoriaId { get; set; }
+
+    public ModoEntrega Modoentrega { get; set; }
+
+    public Categoria categoria { get; set; }
 
     [NotMapped]
     public IFormFile? ImageFile { get; set; }

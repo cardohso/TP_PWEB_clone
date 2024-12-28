@@ -117,16 +117,16 @@ public partial class SlideComponent
             modalDisplay2 = "none";
             abreModal2 = false;
 
-                //var carrinhoCompra = new ItemCarrinhoCompra()
-                //{
-                //    Quantidade = quantidade,
-                //    PrecoUnitario = produto.Preco,
-                //    ValorTotal = total,
-                //    ProdutoId = produto.Id,
-                //    ClienteId = "user"
-                //};
+                var carrinhoCompra = new ItemCarrinhoCompra()
+                {
+                    Quantidade = quantidade,
+                    PrecoUnitario = produto.Preco,
+                    ValorTotal = total,
+                    ProdutoId = produto.Id,
+                    ClienteId = "user"
+                };
 
-                //var response = await _apiServices.AdicionaItemNoCarrinho(carrinhoCompra);
+                var response = await _apiServices.AdicionaItemNoCarrinho(carrinhoCompra);
 
         }
 

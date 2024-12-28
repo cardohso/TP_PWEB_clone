@@ -10,343 +10,343 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.ProdutosMAUI</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ProdutosMAUI.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ProdutosMAUI.runtimeconfig.json">
       <PackagePath>ProdutosMAUI.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ProdutosMAUI.dll">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ProdutosMAUI.dll">
       <PackagePath>ProdutosMAUI.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ProdutosMAUI.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\Resources\Raw\splash.svg">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\Resources\Raw\splash.svg">
       <PackagePath>splash.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\css\app.css">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\css\bootstrap\bootstrap.min.css">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\css\bootstrap\bootstrap.min.css">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\css\bootstrap\bootstrap.min.css.map">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\css\bootstrap\bootstrap.min.css.map">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css.map</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\favicon.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\favicon.png">
       <PackagePath>wwwroot\favicon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\back.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\back.png">
       <PackagePath>wwwroot\images\back.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\backcaroussel.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\backcaroussel.png">
       <PackagePath>wwwroot\images\backcaroussel.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\cart.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\cart.png">
       <PackagePath>wwwroot\images\cart.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\cartcheio.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\cartcheio.png">
       <PackagePath>wwwroot\images\cartcheio.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\exit.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\exit.png">
       <PackagePath>wwwroot\images\exit.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\favoriteheart.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\favoriteheart.png">
       <PackagePath>wwwroot\images\favoriteheart.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\favoritesicon.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\favoritesicon.jpg">
       <PackagePath>wwwroot\images\favoritesicon.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\favoritesicontransp.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\favoritesicontransp.png">
       <PackagePath>wwwroot\images\favoritesicontransp.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\heart.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\heart.png">
       <PackagePath>wwwroot\images\heart.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\heartfill.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\heartfill.png">
       <PackagePath>wwwroot\images\heartfill.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\heartfilltransp.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\heartfilltransp.png">
       <PackagePath>wwwroot\images\heartfilltransp.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\icoaguardando.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\icoaguardando.png">
       <PackagePath>wwwroot\images\icoaguardando.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\icocancelado.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\icocancelado.png">
       <PackagePath>wwwroot\images\icocancelado.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\icocatalog.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\icocatalog.png">
       <PackagePath>wwwroot\images\icocatalog.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\icochecado.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\icochecado.png">
       <PackagePath>wwwroot\images\icochecado.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\icodelete.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\icodelete.png">
       <PackagePath>wwwroot\images\icodelete.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\icoedit.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\icoedit.png">
       <PackagePath>wwwroot\images\icoedit.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\icoementrega.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\icoementrega.png">
       <PackagePath>wwwroot\images\icoementrega.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\icoentrega.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\icoentrega.png">
       <PackagePath>wwwroot\images\icoentrega.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\iconovo.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\iconovo.png">
       <PackagePath>wwwroot\images\iconovo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\iconsave.ico">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\iconsave.ico">
       <PackagePath>wwwroot\images\iconsave.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\icoperfil.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\icoperfil.png">
       <PackagePath>wwwroot\images\icoperfil.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\icosair.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\icosair.png">
       <PackagePath>wwwroot\images\icosair.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\infoicon.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\infoicon.png">
       <PackagePath>wwwroot\images\infoicon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\infoicontransp50x50.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\infoicontransp50x50.png">
       <PackagePath>wwwroot\images\infoicontransp50x50.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\location.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\location.png">
       <PackagePath>wwwroot\images\location.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\minus.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\minus.png">
       <PackagePath>wwwroot\images\minus.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\next.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\next.png">
       <PackagePath>wwwroot\images\next.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\nextcaroussel.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\nextcaroussel.png">
       <PackagePath>wwwroot\images\nextcaroussel.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\pesquisaricon50x50.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\pesquisaricon50x50.png">
       <PackagePath>wwwroot\images\pesquisaricon50x50.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\plus.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\plus.png">
       <PackagePath>wwwroot\images\plus.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\questionsanswers.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\questionsanswers.jpg">
       <PackagePath>wwwroot\images\questionsanswers.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\register.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\register.png">
       <PackagePath>wwwroot\images\register.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\sacofrutas.jpg">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\sacofrutas.jpg">
       <PackagePath>wwwroot\images\sacofrutas.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\searchredicon50x50.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\searchredicon50x50.png">
       <PackagePath>wwwroot\images\searchredicon50x50.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\Selecticontransp120x50.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\Selecticontransp120x50.png">
       <PackagePath>wwwroot\images\Selecticontransp120x50.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\triangulofrutaamarelo.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\triangulofrutaamarelo.png">
       <PackagePath>wwwroot\images\triangulofrutaamarelo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\triangulofrutaazul.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\triangulofrutaazul.png">
       <PackagePath>wwwroot\images\triangulofrutaazul.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\triangulofrutatranspa.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\images\triangulofrutatranspa.png">
       <PackagePath>wwwroot\images\triangulofrutatranspa.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\index.html">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\wwwroot\index.html">
       <PackagePath>wwwroot\index.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ProdutosMAUI.deps.json">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ProdutosMAUI.deps.json">
       <PackagePath>ProdutosMAUI.deps.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.54\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
@@ -745,31 +745,31 @@
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.10\runtimes\win-x64\native\e_sqlite3.dll">
       <PackagePath>e_sqlite3.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\RclAPI\bin\Debug\net8.0\RCLAPI.dll">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\RclAPI\bin\Debug\net8.0\RCLAPI.dll">
       <PackagePath>RCLAPI.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\RCLComum\bin\Debug\net8.0\RCLComum.dll">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\RCLComum\bin\Debug\net8.0\RCLComum.dll">
       <PackagePath>RCLComum.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\RCLProdutos\bin\Debug\net8.0\RCLProdutos.dll">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\RCLProdutos\bin\Debug\net8.0\RCLProdutos.dll">
       <PackagePath>RCLProdutos.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\RclAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\RclAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json">
       <PackagePath>RCLAPI.staticwebassets.endpoints.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\RCLProdutos\obj\Debug\net8.0\staticwebassets.development.json">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\RCLProdutos\obj\Debug\net8.0\staticwebassets.development.json">
       <PackagePath>RCLProdutos.staticwebassets.runtime.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\RCLProdutos\obj\Debug\net8.0\staticwebassets.build.endpoints.json">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\RCLProdutos\obj\Debug\net8.0\staticwebassets.build.endpoints.json">
       <PackagePath>RCLProdutos.staticwebassets.endpoints.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\RCLComum\obj\Debug\net8.0\staticwebassets.development.json">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\RCLComum\obj\Debug\net8.0\staticwebassets.development.json">
       <PackagePath>RCLComum.staticwebassets.runtime.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\RCLComum\obj\Debug\net8.0\staticwebassets.build.endpoints.json">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\RCLComum\obj\Debug\net8.0\staticwebassets.build.endpoints.json">
       <PackagePath>RCLComum.staticwebassets.endpoints.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\staticwebassets.build.endpoints.json">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\staticwebassets.build.endpoints.json">
       <PackagePath>ProdutosMAUI.staticwebassets.endpoints.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.compatibility\8.0.92\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
@@ -781,19 +781,19 @@
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.core\8.0.92\lib\net8.0-windows10.0.19041\Microsoft.Maui.pri">
       <PackagePath>Microsoft.Maui.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\ProdutosMAUI.styles.css">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\ProdutosMAUI.styles.css">
       <PackagePath>wwwroot\ProdutosMAUI.styles.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\ProdutosMAUI.bundle.scp.css">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\ProdutosMAUI.bundle.scp.css">
       <PackagePath>wwwroot\ProdutosMAUI.dv1gv1ftwn.bundle.scp.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\RCLComum\obj\Debug\net8.0\scopedcss\projectbundle\RCLComum.bundle.scp.css">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\RCLComum\obj\Debug\net8.0\scopedcss\projectbundle\RCLComum.bundle.scp.css">
       <PackagePath>wwwroot\_content\RCLComum\RCLComum.hf7k6hm7l4.bundle.scp.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\RCLProdutos\obj\Debug\net8.0\scopedcss\projectbundle\RCLProdutos.bundle.scp.css">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\RCLProdutos\obj\Debug\net8.0\scopedcss\projectbundle\RCLProdutos.bundle.scp.css">
       <PackagePath>wwwroot\_content\RCLProdutos\RCLProdutos.1g2llw64rf.bundle.scp.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\Shared\MainLayout.razor.css">
+    <AppxPackagedFile Include="C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\Shared\MainLayout.razor.css">
       <PackagePath>Shared\MainLayout.razor.css</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

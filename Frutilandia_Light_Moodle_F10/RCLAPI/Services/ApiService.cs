@@ -63,14 +63,11 @@ public class ApiService : IApiServices
             // Prepara o conteúdo para a requisição HTTP
             var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-
-            // Envia a requisição para o endpoint de login
-
+            // Define o endpoint de login
             string endpoint = "api/Auth/login";
-            HttpResponseMessage response = await _httpClient.PostAsync($"{AppConfig.BaseUrl}{endpoint}",content);
 
-
-
+            // Envia a requisição POST para o endpoint de login
+            HttpResponseMessage response = await _httpClient.PostAsync($"{AppConfig.BaseUrl}{endpoint}", content);
 
             // Verifica se a resposta indica sucesso
             if (!response.IsSuccessStatusCode)
@@ -97,7 +94,10 @@ public class ApiService : IApiServices
                 };
             }
 
-            // (Opcional) Armazena o token no estado da aplicação ou outro serviço
+            // Armazenando o token no Preferences para futuras requisições
+            Preferences.Set("accesstoken", token.AccessToken);
+
+            // Log de sucesso
             _logger.LogInformation("Login realizado com sucesso.");
 
             return new ApiResponse<bool> { Data = true };
@@ -230,64 +230,52 @@ public class ApiService : IApiServices
         }
     }
 
-    public async Task<List<Produto>> GetProdutosEspecificos(string produtoTipo, int? IdCategoria)
+    public async Task<List<Produto>> GetProdutosEspecificos(string tipo, int? categoriaId)
     {
-
-        string endpoint = "";
-
-        if (produtoTipo == "categoria" && IdCategoria != null)
-        {
-            endpoint = $"api/Produtos?tipoProduto=categoria&categoriaId={IdCategoria}";
-
-        }
-        else if (produtoTipo == "detalhe" && IdCategoria != null)
-        {
-            endpoint = $"api/Produtos?tipoProduto=categoria&categoriaId={IdCategoria}";
-        }
-        else if (produtoTipo == "promocao")
-        {
-            endpoint = $"api/Produtos?tipoProduto=promocao";
-        }
-        else if (produtoTipo == "maisvendido")
-        {
-            endpoint = $"api/Produtos?tipoProduto=maisvendido";
-        }
-        else if (produtoTipo == "todos")
-        {
-            endpoint = $"api/Produtos?tipoProduto=todos";
-        }
-        else if (produtoTipo == "populares")
-        {
-            endpoint = $"api/Produtos?tipoProduto=populares";
-        }
-        else
-        {
-            return null;
-        }
-
         try
         {
-            HttpResponseMessage httpResponseMessage = await _httpClient.GetAsync($"{AppConfig.BaseUrl}{endpoint}");
-
-            if (httpResponseMessage.IsSuccessStatusCode)
+            var url = "";
+            if (categoriaId == null)
             {
-                string content = "";
-
-                content = await httpResponseMessage.Content.ReadAsStringAsync();
-                produtos = JsonSerializer.Deserialize<List<Produto>>(content, _serializerOptions)!;  
-               
+                url = $"{AppConfig.BaseUrl}api/Produtos";
             }
+            else
+            {
+                url = $"{AppConfig.BaseUrl}api/Produtos/categoriaId/{categoriaId}"; // Corrigido para usar a URL correta
+            }
+                
+                var response = await _httpClient.GetAsync(url);
 
+                // Verificar se a resposta é bem-sucedida
+                if (!response.IsSuccessStatusCode)
+                {
+                    Console.WriteLine($"Erro na API: {response.StatusCode} - {response.ReasonPhrase}");
+                    return new List<Produto>(); // Retorna uma lista vazia para evitar erros
+                }
+
+                // Verificar se o conteúdo da resposta não está vazio
+                var json = await response.Content.ReadAsStringAsync();
+                if (string.IsNullOrWhiteSpace(json))
+                {
+                    Console.WriteLine("A API retornou uma resposta vazia.");
+                    return new List<Produto>();
+                }
+
+                // Tentar deserializar
+                return JsonSerializer.Deserialize<List<Produto>>(json, new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                }) ?? new List<Produto>();
+            
         }
         catch (Exception ex)
         {
-            Console.WriteLine(ex.Message);
-
-            return null;
+            Console.WriteLine($"Erro ao obter produtos: {ex.Message}");
+            return new List<Produto>(); // Retorna uma lista vazia em caso de erro
         }
-
-        return produtos;
     }
+
+
 
     public async Task<Produto> GetDetalheProduto(int IdProduto)
     {
@@ -370,41 +358,6 @@ public class ApiService : IApiServices
 
     
 
-    //public async Task<ApiResponse<bool>> Login(string email, string password)
-    //{
-    //    try
-    //    {
-    //        var login = new DTO.LoginModel()
-    //        {
-    //            Email = email,
-    //            Password = password
-    //        };
-
-    //        var json = JsonSerializer.Serialize(login, _serializerOptions);
-
-    //        var content = new StringContent(json, Encoding.UTF8, "application/json");
-
-    //        var response = await PostRequest("identity/login", content);
-    //        if (!response.IsSuccessStatusCode)
-    //        {
-    //            _logger.LogError($"Erro ao enviar requisição Http: {response.StatusCode}");
-    //            return new ApiResponse<bool>
-    //            {
-    //                ErrorMessage = $"Erro ao enviar requisição HTTP: {response.StatusCode}"
-    //            };
-    //        }
-
-    //        var jsonResult = await response.Content.ReadAsStringAsync();
-    //        var result = JsonSerializer.Deserialize<Token>(jsonResult, _serializerOptions);
-
-    //        return new ApiResponse<bool> { Data = true };
-    //    }
-    //    catch (Exception ex)
-    //    {
-    //        _logger.LogError($"Erro no login: {ex.Message}");
-    //        return new ApiResponse<bool> { ErrorMessage = ex.Message };
-    //    }
-    //}
     private async Task<HttpResponseMessage> PostRequest(string uri, HttpContent content)
     {
         var enderecoURL = AppConfig.BaseUrl + uri;
@@ -501,6 +454,42 @@ public class ApiService : IApiServices
             string errorMessage = $"Erro inesperado: {ex.Message}";
             _logger.LogError(errorMessage);
             return (false, errorMessage);
+        }
+    }
+
+    public async Task<ApiResponse<bool>> AdicionaItemNoCarrinho(ItemCarrinhoCompra itemCarrinho)
+    {
+        try
+        {
+            // Serializa o DTO para JSON
+            var json = JsonSerializer.Serialize(itemCarrinho, _serializerOptions);
+
+            // Prepara o conteúdo da requisição
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            // Define o endpoint da API para adicionar item ao carrinho
+            string endpoint = "api/Carrinho/AdicionarItem";
+
+            // Envia a requisição POST
+            HttpResponseMessage response = await _httpClient.PostAsync($"{AppConfig.BaseUrl}{endpoint}", content);
+
+            // Verifica se a requisição foi bem-sucedida
+            if (response.IsSuccessStatusCode)
+            {
+                return new ApiResponse<bool> { Data = true };
+            }
+            else
+            {
+                // Caso haja erro, retorna uma mensagem
+                _logger.LogError($"Erro ao adicionar item ao carrinho: {response.StatusCode} - {response.ReasonPhrase}");
+                return new ApiResponse<bool> { ErrorMessage = "Erro ao adicionar item ao carrinho." };
+            }
+        }
+        catch (Exception ex)
+        {
+            // Captura erros e retorna como mensagem
+            _logger.LogError($"Erro inesperado: {ex.Message}");
+            return new ApiResponse<bool> { ErrorMessage = ex.Message };
         }
     }
 

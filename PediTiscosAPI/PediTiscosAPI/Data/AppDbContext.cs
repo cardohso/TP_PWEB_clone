@@ -14,62 +14,12 @@ namespace PediTiscosAPI.Data
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Pedido> Pedidos { get; set; }
         public DbSet<Pagamento> Pagamentos { get; set; }
-        public DbSet<ModoEntrega> ModosEntrega { get; set; } // Certifique-se de que a classe ModoEntrega exista
+        public DbSet<ModoEntrega> ModosEntrega { get; set; }
+        public DbSet<ItemCarrinhoCompra> ItensCarrinhoCompra { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
-
-            // Populando Categorias (deve ser inserido primeiro)
-            modelBuilder.Entity<Categoria>().HasData(
-                new Categoria { Id = 1, Nome = "Entradas" },
-                new Categoria { Id = 2, Nome = "Pratos Principais" },
-                new Categoria { Id = 3, Nome = "Sobremesas" }
-            );
-
-            // Populando Produtos (depois das categorias)
-            modelBuilder.Entity<Produto>().HasData(
-                new Produto
-                {
-                    Id = 1,
-                    Nome = "Bolinho de Bacalhau",
-                    Preco = 5.00m,
-                    Detalhe = "Bolinho frito de bacalhau",
-                    EmStock = 100,
-                    CategoriaId = 1,
-                    Disponivel = true,
-                    UrlImagem = "https://exemplo.com/imagem1.jpg",
-                    Promocao = false,
-                    MaisVendido = true
-                },
-                new Produto
-                {
-                    Id = 2,
-                    Nome = "Bife à Portuguesa",
-                    Preco = 15.50m,
-                    Detalhe = "Bife grelhado com batatas",
-                    EmStock = 50,
-                    CategoriaId = 2,
-                    Disponivel = true,
-                    UrlImagem = "https://exemplo.com/imagem2.jpg",
-                    Promocao = true,
-                    MaisVendido = false
-                },
-                new Produto
-                {
-                    Id = 3,
-                    Nome = "Pastel de Nata",
-                    Preco = 2.50m,
-                    Detalhe = "Doce tradicional português",
-                    EmStock = 200,
-                    CategoriaId = 3,
-                    Disponivel = true,
-                    UrlImagem = "https://exemplo.com/imagem3.jpg",
-                    Promocao = false,
-                    MaisVendido = true
-                }
-            );
 
             // Relacionamento entre Produto e ModoEntrega
             modelBuilder.Entity<Produto>()
@@ -93,6 +43,15 @@ namespace PediTiscosAPI.Data
                 .HasOne(p => p.Pedido)
                 .WithMany()
                 .HasForeignKey(p => p.PedidoId);
+            modelBuilder.Entity<ItemCarrinhoCompra>()
+    .Property(i => i.PrecoUnitario)
+    .HasColumnType("decimal(18,2)");
+
+            modelBuilder.Entity<ItemCarrinhoCompra>()
+                .Property(i => i.ValorTotal)
+                .HasColumnType("decimal(18,2)");
+
         }
+
     }
 }

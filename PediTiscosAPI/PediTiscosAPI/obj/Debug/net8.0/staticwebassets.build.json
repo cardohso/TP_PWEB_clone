@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "Hash": "dnzrfaF3e/zxsuR6NhCA32DAmt6LRpVWravKK6nmb4U=",
+=======
+  "Hash": "KWorwvjoqqJS/cEL6Kcl9PC8sdIW7ZoVR4oJFiYaFxo=",
+>>>>>>> Stashed changes
   "Source": "PediTiscosAPI",
   "BasePath": "_content/PediTiscosAPI",
   "Mode": "Default",
@@ -1311,10 +1315,17 @@
       "OriginalItemSpec": "C:\\Users\\jphsc\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.10\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\jphsc\\Documents\\GitHub\\TP_PWEB_clone\\PediTiscosAPI\\PediTiscosAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PediTiscosAPI.styles.css",
       "SourceId": "PediTiscosAPI",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\jphsc\\Documents\\GitHub\\TP_PWEB_clone\\PediTiscosAPI\\PediTiscosAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+=======
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\PediTiscosAPI\\PediTiscosAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PediTiscosAPI.styles.css",
+      "SourceId": "PediTiscosAPI",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\PediTiscosAPI\\PediTiscosAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/PediTiscosAPI",
       "RelativePath": "PediTiscosAPI#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -1329,7 +1340,11 @@
       "Integrity": "yJzMRujk3CbSbBe5hogvoEpcGbz0ThnTl058XcI1svI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
       "OriginalItemSpec": "C:\\Users\\jphsc\\Documents\\GitHub\\TP_PWEB_clone\\PediTiscosAPI\\PediTiscosAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PediTiscosAPI.styles.css"
+=======
+      "OriginalItemSpec": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\PediTiscosAPI\\PediTiscosAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PediTiscosAPI.styles.css"
+>>>>>>> Stashed changes
     }
   ],
   "Endpoints": [
@@ -3629,7 +3644,11 @@
     },
     {
       "Route": "PediTiscosAPI.02jfxhbwsz.styles.css",
+<<<<<<< Updated upstream
       "AssetFile": "C:\\Users\\jphsc\\Documents\\GitHub\\TP_PWEB_clone\\PediTiscosAPI\\PediTiscosAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PediTiscosAPI.styles.css",
+=======
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\PediTiscosAPI\\PediTiscosAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PediTiscosAPI.styles.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3654,7 +3673,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Thu, 26 Dec 2024 23:12:29 GMT"
+=======
+          "Value": "Fri, 27 Dec 2024 15:52:00 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Link",
@@ -3678,7 +3701,11 @@
     },
     {
       "Route": "PediTiscosAPI.styles.css",
+<<<<<<< Updated upstream
       "AssetFile": "C:\\Users\\jphsc\\Documents\\GitHub\\TP_PWEB_clone\\PediTiscosAPI\\PediTiscosAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PediTiscosAPI.styles.css",
+=======
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\PediTiscosAPI\\PediTiscosAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PediTiscosAPI.styles.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3703,7 +3730,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Thu, 26 Dec 2024 23:12:29 GMT"
+=======
+          "Value": "Fri, 27 Dec 2024 15:52:00 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Link",

@@ -285,23 +285,35 @@ namespace PediTiscosAPI.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categorias");
+                });
 
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Nome = "Entradas"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Nome = "Pratos Principais"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Nome = "Sobremesas"
-                        });
+            modelBuilder.Entity("PediTiscosAPI.Entities.ItemCarrinhoCompra", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<decimal>("PrecoUnitario")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("ProdutoId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantidade")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("ValorTotal")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ItensCarrinhoCompra");
                 });
 
             modelBuilder.Entity("PediTiscosAPI.Entities.Pagamento", b =>
@@ -412,50 +424,6 @@ namespace PediTiscosAPI.Migrations
                     b.HasIndex("PedidoId");
 
                     b.ToTable("Produtos");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CategoriaId = 1,
-                            Detalhe = "Bolinho frito de bacalhau",
-                            Disponivel = true,
-                            EmStock = 100m,
-                            MaisVendido = true,
-                            Nome = "Bolinho de Bacalhau",
-                            Preco = 5.00m,
-                            Promocao = false,
-                            Titulo = "",
-                            UrlImagem = "https://exemplo.com/imagem1.jpg"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            CategoriaId = 2,
-                            Detalhe = "Bife grelhado com batatas",
-                            Disponivel = true,
-                            EmStock = 50m,
-                            MaisVendido = false,
-                            Nome = "Bife à Portuguesa",
-                            Preco = 15.50m,
-                            Promocao = true,
-                            Titulo = "",
-                            UrlImagem = "https://exemplo.com/imagem2.jpg"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            CategoriaId = 3,
-                            Detalhe = "Doce tradicional português",
-                            Disponivel = true,
-                            EmStock = 200m,
-                            MaisVendido = true,
-                            Nome = "Pastel de Nata",
-                            Preco = 2.50m,
-                            Promocao = false,
-                            Titulo = "",
-                            UrlImagem = "https://exemplo.com/imagem3.jpg"
-                        });
                 });
 
             modelBuilder.Entity("Pedido", b =>
@@ -482,7 +450,7 @@ namespace PediTiscosAPI.Migrations
                         {
                             Id = 1,
                             ClienteId = "cliente_1",
-                            Data = new DateTime(2024, 12, 26, 22, 3, 33, 258, DateTimeKind.Local).AddTicks(9204)
+                            Data = new DateTime(2024, 12, 27, 23, 38, 59, 62, DateTimeKind.Local).AddTicks(9477)
                         });
                 });
 

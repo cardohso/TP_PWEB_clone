@@ -17,6 +17,30 @@ namespace PediTiscosAPI.Repositories
         {
             return await _context.Categorias.ToListAsync();
         }
+        public async Task<IEnumerable<DTO.Categoria>> GetCategoriasAsync()
+        {
+
+            var categorias = await _context.Categorias.ToListAsync();
+
+            string caminhoImagem = "Imagens\\45908.jpg";
+            var categoriasDtoList = new List<DTO.Categoria>();
+            foreach (var categoria in categorias)
+            {
+                var categoriaDto = new DTO.Categoria
+                {
+                    Id = categoria.Id,
+                    Nome = categoria.Nome,
+                    Ordem = 0,  // Exemplo de como você pode mapear esse campo
+                    UrlImagem = "ola",  // Exemplo de como mapear
+                    Imagem = File.Exists(caminhoImagem) ? await File.ReadAllBytesAsync(caminhoImagem) : null,
+                    CaminhoImagem = caminhoImagem
+                };
+
+                
+                categoriasDtoList.Add(categoriaDto);
+            }
+            return categoriasDtoList;
+        }
 
         public async Task<Categoria> ObterCategoriaPorIdAsync(int id)
         {

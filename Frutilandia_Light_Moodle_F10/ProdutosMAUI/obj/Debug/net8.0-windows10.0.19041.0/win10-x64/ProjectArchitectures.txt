@@ -1,1 +1,1 @@
-C:\Users\User\Documents\GitHub\TP_PWEB\Frutilandia_Light_Moodle_F10\ProdutosMAUI\ProdutosMAUI.csproj;x64
+C:\Users\User\Documents\GitHub\TP_PWEB_clone\Frutilandia_Light_Moodle_F10\ProdutosMAUI\ProdutosMAUI.csproj;x64

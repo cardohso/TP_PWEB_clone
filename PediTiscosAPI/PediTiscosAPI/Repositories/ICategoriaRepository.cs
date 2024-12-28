@@ -9,5 +9,7 @@ namespace PediTiscosAPI.Repositories
         Task<Categoria> CriarCategoriaAsync(Categoria categoria);
         Task AtualizarCategoriaAsync(Categoria categoria);
         Task RemoverCategoriaAsync(int id);
+        Task<IEnumerable<DTO.Categoria>> GetCategoriasAsync();
+
     }
 }

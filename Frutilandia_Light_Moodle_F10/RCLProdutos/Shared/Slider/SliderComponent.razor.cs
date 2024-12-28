@@ -39,53 +39,66 @@ namespace RCLProdutos.Shared.Slider
             int? categoriasenviadaID;
             string? produtosEspecificos;
 
+            // Verificar se não há valor na categoria ou no tipo, e chamar a API para obter todos os produtos
             if (Id == 0 && actualProd == 0 || nomeCat == "Todos")
             {
                 produtosEspecificos = "todos";
-                categoriasenviadaID = null;
+                categoriasenviadaID = null;  // Categoria não fornecida, obter todos os produtos
             }
             else if (actualProd == Id)
             {
                 categoriasenviadaID = Id;
-                produtosEspecificos = "categoria";
+                produtosEspecificos = "categoria";  // Filtrar por categoria
             }
-            else 
+            else
             {
                 if (Id > 0)
                 {
                     categoriasenviadaID = Id;
                     actualProd = Id;
-                    produtosEspecificos = "categoria";
+                    produtosEspecificos = "categoria";  // Filtrar por categoria
                 }
-
                 else
                 {
                     categoriasenviadaID = actualProd;
-                    produtosEspecificos = "categoria";
+                    produtosEspecificos = "categoria";  // Filtrar por categoria
                 }
-
             }
 
             try
             {
+                Console.WriteLine($"Tipo: {produtosEspecificos}");
+                Console.WriteLine($"CategoriaId: {categoriasenviadaID}");
+
                 produtos = await _apiServices!.GetProdutosEspecificos(produtosEspecificos, categoriasenviadaID);
 
-                userFavoritos = await _apiServices!.GetFavoritos("Jorge");
+                foreach (var produto in produtos)
+                {
+                    Console.WriteLine($"Id: {produto.Id}");
+                    Console.WriteLine($"Nome: {produto.Nome}");
+                    Console.WriteLine($"Detalhe: {produto.Detalhe}");
+                    Console.WriteLine($"Preço: {produto.Preco}");
+                    Console.WriteLine($"Disponível: {produto.Disponivel}");
+                    Console.WriteLine($"Promoção: {produto.Promocao}");
+                    Console.WriteLine($"CategoriaId: {produto.CategoriaId}");
+                    Console.WriteLine($"Em Stock: {produto.EmStock}");
+                    Console.WriteLine($"Imagem URL: {produto.UrlImagem}");
+                    Console.WriteLine($"Origem: {produto.Origem}");
+                   
 
-                for (int i = 0; i < userFavoritos.Count; i++)
-                    for (int j = 0; j < produtos.Count; j++)
-                        if (produtos[j].Id == userFavoritos[i].ProdutoId)
-                            produtos[j].Favorito = userFavoritos[i].Efavorito;
+                    Console.WriteLine("------------");
+                }
+            
 
+
+                // Exemplo de uso do produto para sugerir um produto aleatório
                 Random random = new Random();
-
                 int[]? indices = produtos
                                        .Where(item => item is not null)
                                        .Select(item => item.Id)
                                        .ToArray();
 
                 int sugestaoProdutoId = random.Next(0, produtos.Count - 1);
-
                 sugestaoProduto = produtos[indices[sugestaoProdutoId] - 1];
             }
             catch (Exception ex)
@@ -93,15 +106,12 @@ namespace RCLProdutos.Shared.Slider
                 Console.WriteLine(ex.Message);
             }
 
-                await LoadMarginsLeft();
+            await LoadMarginsLeft();
 
-                int qtdProd = produtos.Count;
-
-                witdthPerc = qtdProd * 100;
-
-                sliderUtilsService.WidthSlide2 = 100f / qtdProd;
-
-                sliderUtilsService.OnChange += StateHasChanged;
+            int qtdProd = produtos.Count;
+            witdthPerc = qtdProd * 100;
+            sliderUtilsService.WidthSlide2 = 100f / qtdProd;
+            sliderUtilsService.OnChange += StateHasChanged;
         }
 
         async Task LoadMarginsLeft()
@@ -123,7 +133,7 @@ namespace RCLProdutos.Shared.Slider
             }
             else
             {
-                sliderUtilsService.MarginLeftSlide[0] = "margin-lef:0%";
+                sliderUtilsService.MarginLeftSlide[0] = "margin-left:0%";
                 IsDisbledPrevious = true;
             }
             sliderUtilsService.Index = sliderUtilsService.CountSlide;
@@ -136,16 +146,8 @@ namespace RCLProdutos.Shared.Slider
             if (sliderUtilsService.CountSlide < sliderUtilsService.MarginLeftSlide.Count)
             {
                 string WidthSlideS = (Convert.ToString(sliderUtilsService.WidthSlide2));
-
                 WidthSlideS = WidthSlideS.Replace(",", ".");
-
-                //sliderUtilsService.MarginLeftSlide[sliderUtilsService.CountSlide - 1] = $"margin-left:-{WidthSlide}%";
-
                 sliderUtilsService.MarginLeftSlide[sliderUtilsService.CountSlide - 1] = $"margin-left:-{sliderUtilsService.WidthSlide2}%";
-
-
-                sliderUtilsService.MarginLeftSlide[sliderUtilsService.CountSlide - 1] = $"margin-left:-12.5%";
-
                 IsDisabledNext = false;
                 IsDisbledPrevious = false;
             }

@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "nVgMsVgYXb9yhEg0B40VPtWLgqUIEe3sh/s7kVqoZjM=",
+  "Hash": "U/byvwHmxAmwoTrOtfVBw+Y44XonXVvq6jsdsR+MB/g=",
   "Source": "RCLComum",
   "BasePath": "_content/RCLComum",
   "Mode": "Default",
   "ManifestType": "Publish",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RclAPI\\RCLAPI.csproj",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RclAPI\\RCLAPI.csproj",
       "Version": 2,
       "Source": "RCLAPI",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -21,10 +21,10 @@
   "DiscoveryPatterns": [],
   "Assets": [
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RCLComum.styles.css",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RCLComum.styles.css",
       "SourceId": "RCLComum",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/RCLComum",
       "RelativePath": "RCLComum#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -39,13 +39,13 @@
       "Integrity": "Y9OegZMJmF35zEVIFkUapwkI3a31LYcaCALM/kwK9uc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RCLComum.styles.css"
+      "OriginalItemSpec": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RCLComum.styles.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLComum.bundle.scp.css",
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLComum.bundle.scp.css",
       "SourceId": "RCLComum",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/RCLComum",
       "RelativePath": "RCLComum#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -60,13 +60,13 @@
       "Integrity": "Y9OegZMJmF35zEVIFkUapwkI3a31LYcaCALM/kwK9uc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLComum.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLComum.bundle.scp.css"
     }
   ],
   "Endpoints": [
     {
       "Route": "RCLComum.bundle.scp.css",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLComum.bundle.scp.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLComum.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -87,7 +87,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:36:10 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -103,7 +103,7 @@
     },
     {
       "Route": "RCLComum.hf7k6hm7l4.bundle.scp.css",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLComum.bundle.scp.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RCLComum.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -124,7 +124,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:36:10 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -148,7 +148,7 @@
     },
     {
       "Route": "RCLComum.hf7k6hm7l4.styles.css",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RCLComum.styles.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RCLComum.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -169,7 +169,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:36:10 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -193,7 +193,7 @@
     },
     {
       "Route": "RCLComum.styles.css",
-      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RCLComum.styles.css",
+      "AssetFile": "C:\\Users\\User\\Documents\\GitHub\\TP_PWEB_clone\\Frutilandia_Light_Moodle_F10\\RCLComum\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RCLComum.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -214,7 +214,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 23:36:10 GMT"
+          "Value": "Fri, 27 Dec 2024 15:51:58 GMT"
         },
         {
           "Name": "Cache-Control",
